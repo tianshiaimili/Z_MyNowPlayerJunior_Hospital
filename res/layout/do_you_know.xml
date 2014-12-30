@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/series_bg_repeat"
+    android:paddingBottom="50dp" >
+    
+    <ImageView
+        android:id="@+id/navigator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@null" />
+
+    <ImageView
+        android:id="@+id/doyouknow_flashcard_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/navigator"
+        android:maxWidth="480dp"
+        android:maxHeight="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/doyouknow_flashcard_logo" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/doyouknowCard"
+        android:layout_width="284dp"
+        android:layout_height="260dp" 
+        android:layout_below="@+id/doyouknow_flashcard_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+    <ImageButton
+        android:id="@+id/toLeftButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/doyouknowCard"
+        android:layout_alignLeft="@+id/doyouknowCard"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="105dp"        
+        android:background="#00000000"
+        android:src="@drawable/arrow1" />
+    
+        <ImageButton
+        android:id="@+id/toRightButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/doyouknowCard"
+        android:layout_alignRight="@+id/doyouknowCard"
+        android:layout_marginRight="-12dp"
+        android:layout_marginTop="105dp"
+        android:background="#00000000"        
+        android:src="@drawable/arrow2" />
+
+</RelativeLayout>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu Strings -->
+    <string name="menu_search">搜尋節目</string>
+    <string name="menu_add">AddZN</string>
+    <string name="menu_quit">QuitZN</string>
+    <string name="menu_feedback">FeedbackZN</string>
+    <string name="menu_about">AboutZN</string>
+    <string name="menu_share">ShareZN</string>
+    
+    <string name="search_hint">搜尋節目</string>
+    
+    <!-- for tabbar -->
+	<string name="tabbar.item.live.title">预约</string>
+	<string name="tabbar.item.program.title">我的</string>
+	<string name="tabbar.item.movie.title">電影</string>
+	<string name="tabbar.item.videoexpress.title">影視點播站</string>
+	<string name="tabbar.item.userguide.title">服務通知</string>
+	<string name="tabbar.item.setting.title">更多</string>
+	<string name="tabbar.item.interactive.title">发现</string>
+	
+	<string name="navigationbar.item.back">返回</string>
+	
+	<string name="alert.open.in.safari.title"></string>
+	<string name="alert.open.in.safari.message">繼續進行將會關閉now 隨身睇應用程式. 繼續這個動作?</string>
+	<string name="alert.button.cancel">取消</string>
+	<string name="alert.button.proceed">繼續</string>
+	<string name="alert.button.ok">確定</string>
+	<string name="alert.button.accept">接受</string>
+	<string name="alert.button.decline">拒絕</string>
+	<string name="alert.button.back">返回</string>
+	
+	<string name="setting.label">設定</string>
+	<string name="setting.language.label">Language</string>
+	<string name="setting.language.en.label">English</string>
+	<string name="setting.language.zh.label">中文</string>
+	<string name="setting.nowid.label">now ID 帳戶</string>
+	<string name="setting.nowid.title.label">now ID 帳戶</string>
+	<string name="setting.nowid.loggedout.label">尚未登入</string>
+	<string name="setting.nowid.notverified.label">等待認證</string>
+	<string name="setting.nowid.notbinded.label">尚未連接解碼器</string>
+	<string name="setting.nowid.binded.label">已連接解碼器</string>
+	<string name="setting.nowid.loggedin.label">已登入</string>
+	<string name="setting.nowid.logout.label">登出</string>
+	<string name="setting.nowid.bind.label">連結</string>
+	<string name="setting.nowid.unbind.label">解除</string>
+	<string name="setting.nowid.unbind.fail.message">抱歉！系統現正繁忙，請稍後再試。</string>
+	<string name="setting.nowid.yournowid.label">你的 now ID</string>
+	<string name="setting.nowid.changepassword.label">更改密碼</string>
+	<string name="setting.nowid.emailnotverified.header">確認電郵</string>
+	<string name="setting.nowid.emailnotverified.message">閣下尚未啟動確認電郵, 請按登記電郵內的確認完成整個登記程序。</string>
+	<string name="setting.nowid.binding.header">now TV 解碼器</string>
+	<string name="setting.nowid.binding.bind.message">連結now ID讓你同時在電腦上享受 now TV服務。
+</string>
+	<string name="setting.nowid.binding.unbind.message">如需連結其他解碼器，請按此取消連結，然後重新連結另一個解碼器。</string>
+	<string name="setting.nowid.binding.unbind.alert.header">now ID 帳戶</string>
+	<string name="setting.nowid.binding.unbind.alert.message">確定解除  now ID?</string>
+	<string name="setting.nowid.binding.unbind.alert.confirm">確定</string>
+	<string name="setting.nowid.binding.unbind.alert.cancel">離開</string>
+	<string name="setting.nowfamily.label">相關程式</string>
+	<string name="setting.nowid.nowdollar.balance.title">now DOLLAR 賬戶結餘</string>
+	<string name="setting.nowid.nowdollar.balance">現存 now DOLLAR</string>
+	<string name="setting.nowid.nowdollar.balance.expiry">有效日期</string>
+		
+	<string name="setting.enable.3g.checkout.prompt.title"></string>
+	<string name="setting.enable.3g.checkout.prompt.message">設定中的\"允許以流動數據串流影片\"已經關閉, 如你同意以流動數據網絡傳送數據以觀看影片, 請先開啟這設定。客戶須留意所使用的流動數據收費。</string>
+	<string name="setting.enable.3g.checkout.prompt.goto.setting">查看設定</string>
+	<string name="setting.enable.3g.checkout.prompt.confirm">確定</string>
+	<string name="setting.enable.3g.playback.prompt.title"></string>
+	<string name="setting.enable.3g.playback.prompt.message">注意: 你已由Wi-Fi連線網絡轉到流動數據網絡。</string>
+	<string name="setting.enable.3g.playback.prompt.cancel">取消觀看</string>
+	<string name="setting.enable.3g.playback.prompt.play">繼續播放</string>
+	<string name="setting.quality.selection.title">請選擇影片質素︰</string>
+	<string name="setting.audio.selection.title">聲道選擇</string>
+	<string name="setting.quality.selection.low">低</string>
+	<string name="setting.quality.selection.high">高</string>
+	<string name="setting.pushalert.lable">推送通知</string>
+	<string name="setting.bookmark.selection.playfromlastviewedscene">由最後收看位置播放</string>
+	<string name="setting.bookmark.selection.resume">從頭播放</string>
+	
+	<string name="flah.version.not.accept.title"></string>
+	<string name="flah.version.not.accept.message">注意: 你的Flash 播放器並不是最新版本或不支援now 隨身睇。</string>
+	<string name="flah.version.not.accept.ok">確定</string>
+	
+	<string name="nowid.login.login.label">現有 now TV 客戶</string>
+	<string name="nowid.login.callHotline.label">享受全面 nowplayer 體驗</string>
+	
+	<string name="alert.subscribe.now.title"></string>
+	<string name="alert.subscribe.now.message">立即致電申請專線  2888 1888 (後按‘2’) 訂購此頻道</string>
+	<string name="subscribe.hotline.tel">tel://28881888</string>
+	<string name="alert.button.cancel">取消</string>
+	<string name="alert.button.call">立即致電</string>
+	<string name="alert.button.exit">離開</string>
+	
+	<string name="search.scope.program.text">節目</string>
+	<string name="search.scope.live.text">直播</string>
+	
+	<string name="tableview.label.load.more.text">下載. . .</string>
+	<string name="tableview.label.no.result.text">沒有項目</string>
+	<string name="tableview.button.cancel.text">取消</string>
+	
+	<string name="userguide.label">用戶須知</string>
+	
+	<string name="vod.genre.title">節目分類</string>
+	
+	<string name="alert.terms.and.conditions.title">條款及細則</string>
+	
+	<string name="alert.end.of.program.title">節目完畢</string>
+	<string name="alert.end.of.program.message">節目已播放完畢。</string>
+	<string name="error.alert.video.quality.warning.title"></string>
+	<string name="error.alert.video.quality.warning.message">注意: 影片的聲音和畫面質素，會根據流動裝置的數據連線速度而有所影響。如影片出現&quot;起格&quot;或畫面不同步，請檢查你的連線網路。</string>
+	<string name="error.alert.geo.block.title"></string>
+	<string name="error.alert.geo.block.message">很抱歉! 此節目暫時不能在你所在的地區進行播放。如欲觀看更多now TV節目, 請關閉後重新啟動應用程式。</string>
+	<string name="error.alert.geo.block.quit">離開</string>
+	<string name="error.alert.connection.timeout.title">連線失效</string>
+	<string name="error.alert.connection.timeout.message">請檢查你的網絡連線</string>
+	<string name="error.alert.general.error.title">抱歉！</string>
+	<string name="error.alert.general.error.message">系統現正繁忙，請稍後再試。</string>
+	<string name="error.alert.general.button.back">返回</string>
+	<string name="error.alert.sharpcut.message">影片將於%1$s 停止播放。敬請留意。</string>
+		
+	<!-- proxy server error code -->
+	<string name="error.alert.proxy.server.code.80001">系統現正繁忙, 請稍後再試。(80001)</string>
+	<string name="error.alert.proxy.server.code.80002">系統現正繁忙, 請稍後再試。(80002)</string>
+	<string name="error.alert.proxy.server.code.80003">系統現正繁忙, 請稍後再試。(80003)</string>
+	<string name="error.alert.proxy.server.code.80004">系統現正繁忙, 請稍後再試。(80004)</string>
+	<string name="error.alert.proxy.server.code.80005">系統現正繁忙, 請稍後再試。(80005)</string>
+	<string name="error.alert.proxy.server.code.80006">系統現正繁忙, 請稍後再試。(80006)</string>
+	<string name="error.alert.proxy.server.code.80011">系統現正繁忙, 請稍後再試。(80011)</string>
+	<string name="error.alert.proxy.server.code.80012">系統現正繁忙, 請稍後再試。(80012)</string>
+	<string name="error.alert.proxy.server.code.80015">每位now ID客戶只可同時間於now Player Jr.觀看一個節目或直播頻道，請稍後再試。(80015)</string>
+	<string name="error.alert.proxy.server.code.80016">系統現正繁忙, 請稍後再試。(80016)</string>
+	<string name="error.alert.proxy.server.code.80017">並不能於一部電腦同時間使用多於一個now ID 帳戶觀看now Player Jr.的節目或直播頻道，請稍後再試。(80017)</string>
+	<string name="error.alert.proxy.server.code.80018">系統現正繁忙, 請稍後再試。(80018)</string>
+	<string name="error.alert.proxy.server.code.80022">系統現正繁忙, 請稍後再試。(80022)</string>
+	<string name="error.alert.proxy.server.code.80023">很抱歉，你尚未訂購直播頻道/節目，請致電now TV申請專線2888 1888, 並按 &quot;2&quot; 字申請。(80023)</string>
+	<string name="error.alert.proxy.server.code.80024">很抱歉，你尚未訂購直播頻道/節目，請致電now TV申請專線2888 1888, 並按 &quot;2&quot; 字申請。(80024)</string>
+	<string name="error.alert.proxy.server.code.80025">每位now ID客戶只可同時間於now Player Jr.觀看一個節目或直播頻道，請稍後再試。(80025)</string>
+	<string name="error.alert.proxy.server.code.80026">系統現正繁忙, 請稍後再試。(80026)</string>
+	<string name="error.alert.proxy.server.code.80027">每位now ID客戶只可同時間於now Player Jr.觀看一個節目或直播頻道，請稍後再試。(80027)</string>
+	<string name="error.alert.proxy.server.code.80028">請先按此 &lt;tvbinding.now.com&gt; 連結你的now ID 及解碼器，方可播放now Player。(80028)</string>
+	<string name="error.alert.proxy.server.code.80029">請先按此 &lt;tvbinding.now.com&gt; 連結你的now ID 及解碼器，方可播放now Player。(80029)</string>
+	<string name="error.alert.proxy.server.code.80031">系統現正繁忙, 請稍後再試。(80031)</string>
+	<string name="error.alert.proxy.server.code.80032">系統現正繁忙, 請稍後再試。(80032)</string>
+	<string name="error.alert.proxy.server.code.80033">很抱歉，你尚未訂購直播頻道/節目，請致電now TV申請專線2888 1888, 並按&quot;2&quot; 字申請。(80033)</string>
+	<string name="error.alert.proxy.server.code.80034">很抱歉，你尚未訂購直播頻道/節目，請致電now TV申請專線2888 1888, 並按&quot;2&quot; 字申請。(80034)</string>
+	<string name="error.alert.proxy.server.code.80041">系統現正繁忙, 請稍後再試。(80041)</string>
+	<string name="error.alert.proxy.server.code.80042">系統現正繁忙, 請稍後再試。(80042)</string>
+	<string name="error.alert.proxy.server.code.80043">請先按此 &lt;tvbinding.now.com&gt; 連結你的now ID 及解碼器，方可播放now Player。(80043)</string>
+	<string name="error.alert.proxy.server.code.80044">請先按此 &lt;tvbinding.now.com&gt; 連結你的now ID 及解碼器，方可播放now Player。(80044)</string>
+	<string name="error.alert.proxy.server.code.80121">系統現正繁忙, 請稍後再試。(80121)</string>	
+	<string name="error.alert.proxy.server.code.80122">系統現正繁忙, 請稍後再試。(80122)</string>	
+	<string name="error.alert.proxy.server.code.80125">每位now ID客戶同一時間只可於now影視點播站平板電腦 / 智能手機版觀看一套電影，請稍後再試。(80125)</string>	
+	<string name="error.alert.proxy.server.code.80126">系統現正繁忙, 請稍後再試。(80126)</string>	
+	<string name="error.alert.proxy.server.code.80127">系統現正繁忙, 請稍後再試。(80127)</string>	
+	<string name="error.alert.proxy.server.code.80142">系統現正繁忙, 請稍後再試。(80142)</string>	
+	<string name="error.alert.proxy.server.code.80143">系統現正繁忙, 請稍後再試。(80143)</string>	
+	<string name="error.alert.proxy.server.code.90001">系統現正繁忙, 請稍後再試。(90001)</string>
+	<string name="error.alert.proxy.server.code.90002">系統現正繁忙, 請稍後再試。(90002)</string>
+	<string name="error.alert.proxy.server.code.90010">系統現正繁忙, 請稍後再試。(90010)</string>
+	<string name="error.alert.proxy.server.code.90011">系統現正繁忙, 請稍後再試。(90011)</string>
+	<string name="error.alert.proxy.server.code.90012">系統現正繁忙, 請稍後再試。(90012)</string>
+	<string name="error.alert.proxy.server.code.90013">系統現正繁忙, 請稍後再試。(90013)</string>
+	<string name="error.alert.proxy.server.code.90027">每位now ID客戶只可同時間於now Player Jr.觀看一個節目或直播頻道，請稍後再試。(90027)</string>
+	<string name="error.alert.proxy.server.code.90050">系統現正繁忙, 請稍後再試。(90050)</string>
+	<string name="error.alert.proxy.server.code.90051">系統現正繁忙, 請稍後再試。(90051)</string>
+	<string name="error.alert.proxy.server.code.90052">很抱歉，你尚未訂購直播頻道/節目，請致電now TV申請專線2888 1888, 並按 &quot;2&quot; 字申請。(90052)</string>
+	<string name="error.alert.proxy.server.code.90053">很抱歉，你尚未訂購直播頻道/節目，請致電now TV申請專線2888 1888, 並按 &quot;2&quot; 字申請。(90053)</string>
+	<string name="error.alert.proxy.server.code.90054">請先按此 &lt;tvbinding.now.com&gt; 連結你的now ID 及解碼器，方可播放now Player。(90054)</string>
+	<string name="error.alert.proxy.server.code.90055">請先按此 &lt;tvbinding.now.com&gt; 連結你的now ID 及解碼器，方可播放now Player。(90055)</string>
+	<string name="error.alert.proxy.server.code.90056">系統現正繁忙, 請稍後再試。(90056)</string>
+	<string name="error.alert.proxy.server.code.90060">系統現正繁忙, 請稍後再試。(90060)</string>
+	<string name="error.alert.proxy.server.code.90061">系統現正繁忙, 請稍後再試。(90061)</string>
+	<string name="error.alert.proxy.server.code.90062">系統現正繁忙, 請稍後再試。(90062)</string>
+	<string name="error.alert.proxy.server.code.90063">系統現正繁忙, 請稍後再試。(90063)</string>
+
+
+
+	
+	<string name="warning.alert.enter">進入</string>
+	<string name="warning.alert.quit">離開</string>
+	<string name="warning.alert.mature.title">M-成年觀眾 。</string>
+	<string name="warning.alert.mature">只適合18歲或以上觀眾收看 警告︰本物品內容可能令人反感；不可將本物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士或將本物品向該等人士出示、播放或放映。</string>
+	<string name="warning.alert.aged18.title">III  只准18歲或以上人士觀看</string>
+	<string name="warning.alert.aged18">警告：本物品內容可能令人反感；不可將本物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士或將本物品向該等人士出示、播放或放映。</string>
+	<string name="warning.alert.long.play.title">逾時播放提示</string>
+	<string name="warning.alert.long.play.text">您已觀看此頻道超過%1$d小時，請按"繼續"即可恢復直播頻道播放，謝謝！</string>
+	<string name="warning.alert.continue">繼續</string>
+	    
+    <string name="menu_setting">設定</string>
+    <string name="menu_refresh">重新整理</string>
+    
+    <string name="setting.3gdata.lable">允許以流動數據串流影片</string>
+    <string name="setting.hdmioutput.lable">HDMI 輸出</string>
+    
+    <string name="progress.dialog.title">載入中</string>
+	<string name="progress.dialog.message">請稍候</string>
+	<string name="progress.dialog.binding">載入中, 請稍候...</string>
+	<string name="progress.dialog.unbinding">解除中, 請稍候...</string>
+	<string name="progress.dialog.searching">搜尋中</string>
+
+	<string name="nowid.button.login">登入</string>
+	
+	<string name="vod.episode.actortitle">演員/主持:</string>
+
+	<string name="info.load.error.message">很抱歉! 系統現正繁忙, 請先關閉應用程式再重新啟動。</string>
+	<string name="info.load.error.button">關閉</string>
+	
+	<string name="info.resume.geochange.message">很抱歉! 此節目暫時不能在你所在的地區進行播放。如欲觀看更多now TV節目, 請關閉後重新啟動應用程式。</string>
+	<string name="info.resume.geochange.positive.button">關閉</string>
+	<string name="info.resume.geochange.negative.button">取消</string>
+	
+	<string name="force.upgrade.title">版本更新</string>
+	<string name="force.upgrade.message">此程式提供最新版本，需要更新程式？</string>
+	<string name="force.upgrade.button">更新</string><string name="force.upgrade.cancel.button">遲一些</string>
+	
+	<string name="nowid.landing.register.url">http://reg.now.com/reg/link/nowid_reg_app.jsp?lang=zh_HK#open</string>
+
+	<string name="progsearch.program.list">節目</string>
+	<string name="progsearch.live.list">頻道</string>
+	<string name="progsearch.movie.list">電影</string>
+	<string name="progsearch.today.banner">今天</string>
+	<string name="progsearch.live.more">更多直播頻道搜尋結果</string>
+	<string name="progsearch.program.more">更多節目搜尋結果</string>
+	<string name="progsearch.movie.more">更多電影結果</string>
+	<string name="progsearch.header.othermovie">其他電影</string>
+	<string name="progsearch.datebanner.format">%1$d年%2$d月%3$d日</string>
+	<string name="error.progsearch">未能找到相關內容</string>
+
+	<string name="parentalcontrol.title">家長鎖定</string>
+	<string name="parentalcontrol.firstsetup.title">內容只限成人收看</string>
+	<string name="parentalcontrol.firstsetup.text">首次收看含有成人內容節目前，須核對閣下為now TV 客戶, 請提供以下資料:</string>
+    <string name="parentalcontrol.firstsetup.document.title">身份證明文件類別︰</string>   
+    <string name="parentalcontrol.firstsetup.document.number">證件號碼:</string>
+    <string name="parentalcontrol.firstsetup.document.number.error">輸入之證件號碼不正確， 請重新輸入。如問題持續, 請致電客戶服熱線1833888 查詢。</string>
+    <string name="parentalcontrol.firstsetup.nowid.password.hint">輸入now ID 密碼</string>
+    <string name="parentalcontrol.firstsetup.nowid.password.error">now ID密碼不正確, 請重新輸入。</string>
+    <string name="parentalcontrol.firstsetup.confirm.checkbox.text">本人確認已年滿18歲並為now TV用戶。</string>
+    <string name="parentalcontrol.firstsetup.confirm.text">閣下於以上所遞交的資料只用作核實閣下now TV用戶身份。 </string>
+    <string name="parentalcontrol.firstsetup.confirm.error.text">注意︰此節目只限年滿18歲並為now TV用戶的人士;\n請適當地於空格確認閣下的身份。 </string>
+    <string name="parentalcontrol.firstsetup.button">提交</string>
+    
+    <string name="parentalcontrol.firstsetup.dialog.title">家長鎖定設定完成</string>
+    <string name="parentalcontrol.firstsetup.dialog.text">家長鎖定防止未經授權的人士觀看含成人內容節目。 閣下不得授權18歲以下人士觀看含成人內容節目。</string>
+    <string name="parentalcontrol.firstsetup.dialog.attention">注意︰請把now ID 密碼保密, 切勿向任何人士透露你的now ID密碼。</string>
+    <string name="parentalcontrol.firstsetup.dialog.button">播放</string>
+    
+    <string name="parentalcontrol.password.title">您所選的節目因含成人內容已被上鎖。請輸入now ID密碼解除節目鎖定以觀看內容。</string>
+    <string name="parentalcontrol.password.confirm">本人確認已年滿18歲並為now TV客戶。</string>
+    <string name="parentalcontrol.password.attention">注意︰請勿向任何人士透露你的now ID密碼。</string>
+    <string name="parentalcontrol.password.warning">警告： 本物品內容可能令人反感；不可將本物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士或將本物品向該等人士出示、播放或放映。</string>
+    <string name="parentalcontrol.password.confirm.button">確定</string>
+    <string name="parentalcontrol.password.input.error">now ID密碼不正確, 請重新輸入。</string>
+    
+    <string name="movie.subcat.spinner.title">類別</string>
+    <string name="movie.program.actor.title">演員:</string>
+    <string name="movie.program.duration.title">片長:</string>
+    <string name="movie.program.language.title">語言:</string>
+    <string name="movie.program.minute.text">分鐘</string>
+    
+    <string name="classification.i">適 合 任 何 年 齡 人 士 觀 看</string>
+    <string name="classification.iia">兒 童 不 宜</string>
+    <string name="classification.iib">青 少 年 及 兒 童 不 宜</string>
+    <string name="classification.iii">只 准 18 歲 或 以 上 人 士 觀 看</string>
+    <string name="classification.warning">警告： 本物品內容可能令人反感；不可將本物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士或將本物品向該等人士出示、播放或放映。</string>
+    
+    <string name="ve.details.first.title">now影視點播站</string>
+    <string name="ve.details.highlighted.title">精選推介</string>
+    <string name="ve.details.actors.title">主演:</string>
+    <string name="ve.details.duration.title">片長:</string>
+    <string name="ve.details.language.title">語言:</string>
+    <string name="ve.details.offairdate.title">最後選購日期</string>
+    <string name="ve.details.viewperiod.title">觀賞期限:</string>
+    <string name="ve.details.expiry.title">最後播放日期及時間</string>
+    <string name="ve.details.expiryperiod.ppv">48小時</string>
+    <string name="ve.details.expiryperiod.ppvepisode">48小時</string>
+    <string name="ve.details.expiryperiod.ppvseries">30日</string>
+    <string name="ve.details.remarks">注意:於流動裝置上購買的節目只可透過電視及已授權的流動裝置收看。購買該節目後的%1$s內可無限次任睇。</string>
+    <string name="ve.details.icon.hd.title">高清電視版</string>
+	<string name="ve.details.icon.sd.title">標清電視版 </string>
+	<string name="ve.details.icon.mobile.title">平板電腦 / 智能手機版</string>
+	<string name="ve.details.expand.title">更多</string>
+	<string name="ve.details.nowdollarbalance.title">現存 now DOLLAR</string>
+	<string name="ve.details.paid.title">已購買</string>
+	<string name="ve.details.payment.nowdollar">$%1$.0f now DOLLAR</string>
+	<string name="ve.details.payment.cash">$%1$.0f 原價 </string>
+	<string name="ve.details.payment.free">免費</string>
+	<string name="ve.details.payment.dialog.title">請注意</string>
+	<string name="ve.details.payment.dialog.message">你已購買此節目的高清/ 標清版本。請按「繼續」購買另一版本，或按「返回」收看你已購買的版本。</string>
+	<string name="ve.details.payment.dialog.button.positive">繼續</string>
+	<string name="ve.details.payment.dialog.button.negative">返回</string>
+	<string name="ve.details.nowdollar.insufficient.dialog.message">"對不起，你沒有足夠的now DOLLAR。\n請先返回now 影視點播站網頁或電視介面充值now DOLLAR。"</string>
+	<string name="ve.details.nowdollar.insufficient.dialog.button.negative">離開</string>
+	<string name="ve.details.dialog.general.title">抱歉!</string>
+	<string name="ve.details.dialog.general.error.title">抱歉!</string>
+	<string name="ve.details.dialog.general.error.button">返回</string>
+	<string name="ve.details.dialog.restricted.message">你想觀看之電影並不授權於本流動裝置上播放 。</string>
+	<string name="ve.details.dialog.restricted.purchase.message">你想觀看之電影並不授權於本流動裝置。</string>
+	<string name="ve.details.svod.coming.soon"> (即將上架)</string>
+	
+		
+    <string name="ve.alert.namemobiledevice">請輸入本流動裝置名稱</string>
+    <string name="ve.alert.namemobiledevice.error.misformat">請重新輸入由3至10個英文或數字組成之名稱。系統不支援特殊符號。</string>
+    <string name="ve.alert.namemobiledevice.error.dupicate">此設備名稱已使用，請重新輸入。</string>
+    <string name="ve.alert.confirm">確定</string>
+    
+    <string name="ve.purchase.movie.title">購買電影</string>
+    <string name="ve.purchase.series.title">購買劇集</string>
+    <string name="ve.purchase.nowdollar.title">now DOLLAR</string>
+    <string name="ve.purchase.nowdollar.balance.title">現存 now DOLLAR</string>
+    <string name="ve.purchase.cash.title">HKD</string>
+    <string name="ve.purchase.remainingbalance.title">餘額</string>
+    <string name="ve.purchase.thankyou.title">多謝!</string>
+    <string name="ve.purchase.password.entry.title">請輸入now ID密碼</string>
+    <string name="ve.purchase.password.invalid.title">密碼錯誤，請重新輸入</string>
+    <string name="ve.purchase.nowdollar.insufficient.title">對不起，你沒有足夠的now DOLLAR。\n請先返回now 影視點播站網頁或電視介面增值now DOLLAR。\n</string>
+    <string name="ve.purchase.nowdollar.cash.title">交易金額將會計算在now TV賬單內。</string>
+    <string name="ve.purchase.paywithcash.title">直接以原價付款收看</string>
+    <string name="ve.purchase.mobile.title">智能手機版 / 平板電腦 </string>
+    <string name="ve.purchase.mobilehd.title">高清電視版</string>
+    <string name="ve.purchase.mobilesd.title">標清電視版</string>
+    <string name="ve.purchase.ppv.text">48小時</string>
+    <string name="ve.purchase.ppvs.text">30日</string>
+    <string name="ve.purchase.ppve.text">48小時</string>
+    <string name="ve.purchase.password.error.text">密碼錯誤，請重新輸入</string>
+    <string name="ve.purchase.sdpurchasehd.error.text">你尚未登記高清電視服務。\n請致電now TV申請專線2888 1888。</string>
+    <string name="ve.purchase.concurrentplaying.error.text">每位now ID客戶同一時間只可於now影視點播站平板電腦 / 智能手機版觀看一套電影，請稍後再試。</string>
+    <string name="ve.purchase.concurrentpurchase.error.text">每位now ID客戶於now影視點播站平板電腦 / 智能手機觀看電影時，不能購買其他電影或登記月費計劃，請稍後再試。</string>
+    <string name="ve.purchase.nowdollar.insufficient2.title">你亦可選擇直接以原價付款收看。</string>
+    <string name="ve.purchase.success.play">播放</string>
+    <string name="ve.purchase.exit">離開</string>
+    <string name="ve.general.error">系統現正繁忙，請稍後再試\n如需要協助，可致電now TV客戶服務熱線 1833 888 查詢。</string>
+    <string name="ve.cannot.play">你所選擇的節目暫時未能播放，請稍後再試。</string>
+    <string name="ve.geo.failed">now 影視點播站暫時不能在你所在的地區進行播放。</string>
+    <string name="ve.purchase.service.subscription">訂購服務</string>
+    <string name="ve.purchase.service.devicecontrol"></string>
+    
+    <string name="ve.myplaylist.title">我的播放清單</string>
+    <string name="ve.myplaylist.text">以下電影全部均可透過now TV之now影視點播站率先睇(106台)及已授權的流動裝置收看。</string>
+    <string name="ve.myplaylist.expiry.title">最後播放日期及時間</string>
+    <string name="ve.myplaylist.authorizeddevice.title">授權裝置名稱: </string>
+    <string name="ve.myplaylist.notyetauthorized.title">尚未授權</string>
+    <string name="ve.myplaylist.authorizetoplay.title">授權播放</string>
+    <string name="ve.myplaylist.error.noplaylist">你暫時未有於now影視點播站率先睇購買任何節目。已購買的節目將會展示在「我的播放清單」上，方便欣賞。</string>
+    <string name="ve.myplaylist.error.notauthorized.dialog">你想觀看之電影並不授權於本流動裝置上播放 。</string>
+    <string name="ve.myplaylist.error.expired">節目觀看期限已逾期，如欲再次收看，請重新購買。</string>
+    
+<!-- need to use formatter to construct the following strings -->
+    <string name="ve.purchase.formatter.deviceavalibility.text">該節目只可透過本流動裝置%1$s及其now TV之now影視點播站率先睇(106台)收看。你可於購買該節目後的%2$s內無限次任睇。%2$s收看時限會在你購買節目後即時開始計算。購買節目後恕不退款。</string>
+    <string name="ve.purchase.formatter.deviceavalibility.success.text">該節目只可透過本流動裝置%1$s及其now TV之now影視點播站率先睇(106台)收看。你可於購買該節目後的%2$s內無限次任睇。%2$s收看時限會在你購買節目後即時開始計算。購買節目後恕不退款。</string>
+    <string name="ve.purchase.formatter.movie.cashpoint.text">交易金額將會計算在now TV賬單內。\n該節目只可透過本流動裝置%1$s及其now TV之now影視點播站率先睇(106台)收看。你可於購買該節目後的%2$s內無限次任睇。%2$s收看時限會在你購買節目後即時開始計算。購買節目後恕不退款。</string>
+    <string name="ve.purchase.formatter.success.text">閣下已成功購買%2$s的平板電腦 / 智能手機 + %1$s。</string>
+    <string name="ve.myplaylist.formatter.authorizedevice.text">閣下已授權%1$s只在本流動裝置播放</string>
+    <string name="ve.myplaylist.formatter.success.text">你可於購買該節目後的%1$s內無限次收看此節目。</string>
+    
+    <!-- TV Plus -->
+    <string name="tvplus.vodtimeline.label">重點跳播</string>
+    <string name="tvplus.pulltorefresh.pulldown.label">下拉螢幕更新</string>
+    <string name="tvplus.pulltorefresh.release.label">放開螢幕更新</string>
+    
+</resources>

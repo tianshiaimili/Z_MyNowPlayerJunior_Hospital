@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="70dp"
+     >
+
+    <Button
+        android:id="@+id/yuyueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_button_selector"
+        android:text="添加预约人"
+        android:textSize="14sp"
+        android:layout_marginTop="@dimen/yuyue_button_margin"
+        android:layout_marginRight="@dimen/yuyue_button_margin_right"
+        android:layout_marginLeft="@dimen/yuyue_button_margin_left"
+         />
+	<EditText 
+	     android:layout_width="match_parent"
+       	 android:layout_height="wrap_content"
+       	 android:hint="啦啦啦德玛西亚"
+	    />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/wnl_card_item_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="2dp"
+          android:layout_marginRight="2dp"
+          android:background="@drawable/roundcorner_shadow"
+          android:paddingBottom="6dp"
+          android:paddingLeft="0dp"
+          android:paddingRight="0dp"
+          android:paddingTop="0dp" >
+
+               <RelativeLayout
+                   android:layout_width="280dp"
+                   android:layout_height="182dp"
+                   android:background="@drawable/roundcorner_blue"
+                   android:padding="3dp" >
+
+                   <ImageView
+                       android:id="@+id/wnl_card_image_"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:scaleType="fitXY"
+                       android:tag="wnl_card_image_"
+                       android:src="@drawable/ondemand_thumbnail_bg" />
+               </RelativeLayout>
+           </RelativeLayout>
+    
+
+

@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,UselessLeaf" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/program_bg_repeat" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/program_bg_top_repeat" />
+
+    <ImageView
+        android:id="@+id/thumbnail_bg_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ondemand_thumbnail_small_bg" />
+
+    <ImageView
+        android:id="@+id/channellogo"
+        android:layout_width="94dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@id/thumbnail_bg_small"
+        android:layout_alignTop="@id/thumbnail_bg_small"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/channellogo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/thumbnail_bg_small"
+        android:gravity="top|left"
+        android:includeFontPadding="false"
+        android:lines="2"
+        android:text="冒險王奇克"
+        android:textColor="@color/SeriesDetailTitle"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/durationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/titleText"
+        android:layout_below="@id/titleText"
+        android:layout_marginTop="1dp"
+        android:text="片長 :"
+        android:textColor="@color/ProgramDetailLabel"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/langlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/durationlabel"
+        android:layout_below="@id/durationlabel"
+        android:layout_marginTop="1dp"
+        android:text="語言 :"
+        android:textColor="@color/ProgramDetailLabel"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/durationlabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/durationlabel"
+        android:text="157 mins"
+        android:textColor="@color/SeriesDetailSynosis"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/langlabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/langlabel"
+        android:text="英語／粵語"
+        android:textColor="@color/SeriesDetailSynosis"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/thumbnail_bg_small"
+        android:layout_below="@id/thumbnail_bg_small"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/play_btn_bg_selector"
+        android:src="@drawable/program_btn_selector" />
+
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@id/langlabel"
+        android:layout_below="@id/langlabel"
+        android:layout_marginBottom="55dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp" >
+        
+	    <ScrollView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" >        
+    
+		    <TextView
+		        android:id="@+id/synosis"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="奇克的新鄰居變成了他的瘋狂粉絲，還為奇克成立了粉絲俱樂部 . 光頭強在伐木場裡開墾出一塊田地種番茄。熊大兩次偷偷溜進田地，卻都被光頭強捉弄，熊大憤憤不平。奇克與傳說中的超級大金魚搏鬥 …"
+		        android:textColor="@color/SeriesDetailSynosis"
+		        android:textSize="14sp"
+		        android:textStyle="bold" />
+	    </ScrollView>
+    </FrameLayout>
+</RelativeLayout>

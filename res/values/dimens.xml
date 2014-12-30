@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 预约页面的大小 -->
+    <dimen name="yuyue_name_textsize">16sp</dimen>
+    <dimen name="yuyue_sex_textsize">12sp</dimen>
+    <dimen name="yuyue_button_margin">25dp</dimen>
+    <dimen name="yuyue_button_margin_left">15dp</dimen>
+    <dimen name="yuyue_button_margin_right">15dp</dimen>
+    <dimen name="yuyue_listview_margin_top">25dp</dimen>
+    <dimen name="yuyue_listview_margin_right">15dp</dimen>
+    <dimen name="yuyue_listview_margin_left">15dp</dimen>
+    <dimen name="yuyue_listview_item_margin_left">5dp</dimen>
+    <dimen name="yuyue_listview_item_margin_left3">40dp</dimen>
+    <dimen name="yuyue_listview_item_padding_left">15dp</dimen>
+    <dimen name="yuyue_listview_item_padding_right">15dp</dimen>
+    
+</resources>

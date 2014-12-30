@@ -1,0 +1,40 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/episodeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="47dp"
+                android:text="Episode Title"
+                android:textColor="#00347a"
+                android:textSize="16dp" />
+
+  	       <ImageView
+	                android:id="@+id/classification"
+	                android:layout_width="wrap_content"
+	                android:layout_height="25dp"
+	                android:layout_toLeftOf="@+id/play_button"
+	                android:src="@drawable/arrow" />
+  	                      
+         	<ImageView
+	                android:id="@+id/play_button"
+	                android:layout_width="wrap_content"
+	                android:layout_height="25dp"
+	                android:layout_marginRight="12dp"
+	                android:src="@drawable/btn_play_normal" android:layout_alignParentRight="true"/>
+            
+			
+        </RelativeLayout>
+
+    </LinearLayout>

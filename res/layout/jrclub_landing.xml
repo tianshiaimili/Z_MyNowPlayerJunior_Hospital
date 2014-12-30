@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/series_bg_repeat" />
+       
+       	<ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/jr_club_welcome_bg_mask" />
+       	
+	    <com.hua.gz.widget.adapterview.ObservableListView	   
+	        android:id="@+id/jrclub_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        android:listSelector="@android:color/transparent"
+	        android:divider="@android:color/transparent"
+		    android:dividerHeight="0dp"
+	        android:cacheColorHint="@android:color/transparent"
+	        android:background="@android:color/transparent" />
+
+</FrameLayout>

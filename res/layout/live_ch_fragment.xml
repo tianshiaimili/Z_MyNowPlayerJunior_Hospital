@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+	   <com.commonsware.cwac.layouts.AspectLockedFrameLayout
+	       android:id="@+id/videoFrame"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_gravity="center" >
+
+	       <ImageView 
+	           android:id="@+id/promotePoster"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:scaleType="fitXY" />
+
+	       <FrameLayout
+	           android:id="@+id/videoPlayer"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent" />
+	       	       
+	       <ImageView
+	           android:id="@+id/channelPlayBtn"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="center"
+	           android:src="@drawable/channel_play_btn" />
+
+	       <ImageButton
+        		android:id="@+id/channelFSBtn"
+        		android:layout_width="84dp"
+        		android:layout_height="73dp"
+        		android:layout_gravity="bottom|right"
+        		android:src="@drawable/channel_fullscreen_btn"
+        		android:background="@null" />
+	       
+       </com.commonsware.cwac.layouts.AspectLockedFrameLayout>
+
+	   <RelativeLayout
+	       android:id="@+id/channelInfoFrame"
+	       android:layout_width="match_parent"
+	       android:layout_height="0dp"
+	       android:layout_weight="1"
+	       android:paddingBottom="50dp" >
+
+	       <HorizontalScrollView 
+	           android:id="@+id/channelListScrollView"
+	           android:layout_width="fill_parent"
+	           android:layout_height="58dp"
+	           android:background="@drawable/channel_btn_bg"
+	           android:scrollbars="none"
+	            >
+	           
+	           <LinearLayout 
+	               android:id="@+id/channelListLinearLayout"
+	               android:orientation="horizontal"
+	               android:layout_width="wrap_content"
+	               android:layout_height="fill_parent"
+               />
+	       
+           </HorizontalScrollView>
+
+	       <ImageView
+	           android:id="@+id/programinfopanel"
+	           android:layout_width="match_parent"
+	           android:layout_height="fill_parent"
+	           android:layout_below="@+id/channelListScrollView"
+	           android:scaleType="fitXY"
+	           android:src="@drawable/channel_bg" />
+
+	       <TextView
+	           android:id="@+id/programtitle"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentLeft="true"
+	           android:layout_alignTop="@id/programinfopanel"
+	           android:layout_marginLeft="15dp"
+	           android:layout_marginRight="15dp"
+	           android:layout_marginTop="25dp"
+	           android:maxLines="2"
+	           android:text=""
+	           android:textColor="@color/bg"
+	           android:textSize="18sp"
+	           android:textStyle="bold" />
+
+	       <TextView
+	           android:id="@+id/programtime"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_below="@id/programtitle"
+	           android:layout_marginLeft="15dp"
+	           android:layout_marginRight="15dp"
+	           android:layout_marginTop="5dp"
+	           android:text=""
+	           android:textColor="@color/program_time_color"
+	           android:textSize="13sp" />
+	   </RelativeLayout>
+	
+</LinearLayout>

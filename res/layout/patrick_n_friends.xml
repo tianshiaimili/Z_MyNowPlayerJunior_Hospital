@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/series_bg_repeat"
+    android:paddingBottom="50dp" >
+
+    <ImageView
+        android:id="@+id/navigator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@null" />
+
+    <ImageView
+        android:id="@+id/patrick_n_friend_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@+id/navigator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/interactive_patricknfriends_header" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/flashcard"
+        android:layout_width="284dp"
+        android:layout_height="259dp"
+        android:layout_below="@+id/patrick_n_friend_logo"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="254dp"
+        android:layout_below="@+id/patrick_n_friend_logo"
+        android:layout_centerHorizontal="true"
+        android:alpha="1.0" >
+
+        <ImageButton
+            android:id="@+id/cardImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/cardSecondButton"
+            android:layout_width="140dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:background="#00000000" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/toLeftButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flashcard"
+        android:layout_below="@+id/flashcard"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="-45dp"
+        android:background="#00000000"
+        android:src="@drawable/arrow1" />
+
+    <ImageButton
+        android:id="@+id/toRightButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/flashcard"
+        android:layout_below="@+id/flashcard"
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="-45dp"
+        android:background="#00000000"
+        android:src="@drawable/arrow2" />
+
+</RelativeLayout>

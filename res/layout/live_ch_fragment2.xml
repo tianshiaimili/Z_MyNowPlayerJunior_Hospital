@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="70dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/yuyue_listview_margin_top"
+         >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+             >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/appointment_layer_list_background"
+                android:visibility="gone"
+                 />
+
+            <Button
+                android:id="@+id/yuyueButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/yuyue_button_margin_left"
+                android:layout_marginRight="@dimen/yuyue_button_margin_right"
+                android:background="@drawable/edit_button_selector"
+                android:text="添加预约人"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/contentListView"
+        style="@style/ListViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/yuyue_listview_margin_top"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:listSelector="#00000000"
+        android:paddingLeft="@dimen/yuyue_listview_item_padding_left"
+        android:paddingRight="@dimen/yuyue_listview_item_padding_right"
+        android:scrollbarSize="5dip"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb" >
+    </ListView>
+
+</LinearLayout>

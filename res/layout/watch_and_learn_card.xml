@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wnl_card_whole_layout"
+    android:background="@drawable/series_bg_repeat"
+     >
+
+    <ImageView
+        android:id="@+id/watch_learn_card_header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:maxWidth="480dp"
+        android:maxHeight="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/eyeflashcard_cat_header" />
+	<LinearLayout 
+	    android:id="@+id/watch_learn_card_fake_item"
+	        android:layout_width="284dp"
+	        android:layout_height="wrap_content" 
+	        android:orientation="vertical"
+	        android:layout_below="@+id/watch_learn_card_header"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="15dp"
+	        android:scrollbars="none"
+	        android:clipChildren="false"
+	        android:clipToPadding="false" 
+	    />
+    <com.pccw.nowplayerjunior.interactive.MyFlingHorizontalScrollView
+        android:id="@+id/watch_learn_card_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/watch_learn_card_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/watch_learn_card_scroll_items_layout"
+            >
+            
+            
+        </LinearLayout>
+        
+        </com.pccw.nowplayerjunior.interactive.MyFlingHorizontalScrollView>
+
+    <ImageButton
+        android:id="@+id/wnl_toLeftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/watch_learn_card_fake_item"
+        android:layout_alignLeft="@+id/watch_learn_card_fake_item"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="68dp"        
+        android:background="#00000000"
+        android:src="@drawable/interactive_arrow_left_blue" />
+    
+        <ImageButton
+        android:id="@+id/wnl_toRightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/watch_learn_card_fake_item"
+        android:layout_alignRight="@+id/watch_learn_card_fake_item"
+        android:layout_marginRight="-12dp"
+        android:layout_marginTop="68dp"
+        android:background="#00000000"        
+        android:src="@drawable/interactive_arrow_right_blue" />
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/watch_learn_card_scrollview"
+            android:layout_marginTop="10dp"
+            >
+            <ImageButton
+	        android:id="@+id/wnl_english_sound_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:background="#00000000"        
+	        android:src="@drawable/eyeflashcard_english" />
+            <ImageButton
+	        android:id="@+id/wnl_mandarin_sound_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_toLeftOf="@+id/wnl_english_sound_button"
+	        android:layout_marginRight="5dp"
+	        android:background="#00000000"        
+	        android:src="@drawable/eyeflashcard_mandarin" />
+            <ImageButton
+	        android:id="@+id/wnl_cantonese_sound_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_toRightOf="@+id/wnl_english_sound_button"
+	        android:layout_marginLeft="5dp"
+	        android:background="#00000000"        
+	        android:src="@drawable/eyeflashcard_cantonese" />
+             
+        </RelativeLayout>
+
+</RelativeLayout>

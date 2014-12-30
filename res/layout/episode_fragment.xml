@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/series_bg_top" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <ImageView
+            android:id="@+id/channellogo"
+            android:layout_width="128dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="3dp"
+            android:src="@drawable/empty_program_thumbnail" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/programTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="Title"
+                android:textColor="#ffbf1c"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:maxLines="5"
+                android:minLines="5"
+                android:singleLine="false"
+                android:textColor="#e0eeff"
+                android:text="12345iwehongdldpawopepd;dldl;d;dd&apos;flfklf;d;d;d;dl;dslksksk"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+			 >
+
+                <TextView
+                    android:id="@+id/actorandhost_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="actor/host:"
+                    android:textColor="#616161"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/actor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="actor"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    
+
+    
+    <ListView
+        android:id="@+id/listView01"
+        android:layout_width="match_parent"
+        android:background="@drawable/series_bg"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

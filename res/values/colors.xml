@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="TabBar_Title_Normal">#ffffff</color>
+    <color name="TabBar_Title_Active">#fe6000</color>
+    <color name="TabBar_Title_Active2">#6D6D6D</color>
+    <color name="program_time_color">#b5d5ff</color>
+    <color name="GenreBarText">#FFFFFF</color>
+    <color name="OnDemandTableTitle">#00347a</color> 
+	<color name="Nav_Back_Title">#b5d5ff</color>
+	<color name="Nav_Back_Title_Shadow">#284db4</color>
+	<color name="SeriesDetailTitle">#ffbf1c</color>
+	<color name="SeriesDetailSynosis">#e0eeff</color>
+	<color name="SeriesDetailTitleDisable">#6b95cd</color>
+	<color name="ProgramDetailLabel">#90c2ff</color>
+	<color name="SettingTextColor">#065186</color>
+	<color name="SettingTextColorActive">#ffffff</color>
+	<color name="SettingTextColorChecked">#8fc2ff</color>
+	<color name="SettingTextColorSubText">#0b47b4</color>
+	<color name="SettingTextColorGiftCode">#1FCDFF</color>
+	<color name="pressed">#396cd0</color>  
+	<color name="unfocused">#00000000</color>
+	
+	<color name="JrClubNewsTextColor">#2779ba</color>
+	<color name="JrClubNewsSeperatorColor">#7fb5ff</color>
+	
+	<color name="TutWelcomeTextColor">#0095df</color>
+	<color name="TutSkipButtonTextColor">#38b0ff</color>
+	<color name="TutOrangeButtonTextColor">#ffffff</color>
+	<color name="TutOrangeButtonTextShadowColor">#99450e</color>
+	<color name="TutBlackButtonTextColor">#ffffff</color>
+	<color name="TutBlackButtonTextShadowColor">#000000</color>
+	<color name="split_line_color">#000000</color>
+	<color name="homebg_color">#EFEFEF</color>
+	
+	<!-- 预约的颜色设置 -->
+	<color name="yuyue_headusername_text_color">#000000</color>
+	<color name="yuyue_usersex_text_color">#CCCCCC</color>
+	<color name="yuyue_listview_divider">#CCCCCC</color>
+	
+</resources>

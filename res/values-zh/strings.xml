@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">now player Jr.</string>
+	<string name="error.alert.parentallock.message">你所選擇的節目暫時未能播放，請稍後再試  </string>
+    <string name="error.alert.hdmi.message">很抱歉, 本應用程式不支援HDMI 輸出。</string>
+    <string name="error.geo.check.failed">很抱歉, now player Jr. .服務暫時不能在你所在的地區進行播放。</string>
+    <string name="error.alert.email.not.verified.message">您的確認電郵尚未啟動，請按登記電郵內的確認連結完成整個登記程序。</string>
+	
+    <string name="alert.subscribe.now.junior.title">閣下未訂購所選內容</string>
+    <string name="alert.subscribe.now.junior.message">你尚未訂購智醒兒童組合，立即致電now TV申請專線2888 1888，並按"2"字申請。</string>
+    <string name="alert.subscribe.specialFeature.title">閣下未訂購所選內容</string>
+    <string name="alert.subscribe.specialFeature.message">你尚未訂購智醒兒童組合，立即致電now TV申請專線2888 1888，並按"2"字申請。</string>
+    
+    <string name="nowid.landing.free_register">免費登記</string>
+    <string name="nowid.landing.subscribe_desc">立即申請智醒兒童組合，即可於now player Junior 應用程式體驗更多益智有趣的兒童節目。</string>
+	<string name="nowid.landing.activate.text">啟動您的禮品編碼</string>
+	<string name="nowid.landing.activate.button">啟動</string>
+	<string name="nowid_landing_register_giftcode_url">http://freekids.nowtv.now.com/giftcode/promotion/signin?lang=zh</string>
+	<string name="nowid.connect.desc">請即連結now ID，並在now player Junior 應用程式上體驗智醒兒童組合內的節目服務。</string>
+	<string name="nowid.button.connect">連結</string>
+	<string name="nowid.not.subscribed.text">你尚未訂購智醒兒童組合!</string>
+	<string name="nowid.subscribe.now.text">訂購智醒兒童組合!</string>
+	<string name="nowid.call.now.text">立即致電now TV申請專線2888 1888，並按\"2\"字申請。</string>
+	<string name="nowid.button.call">立即致電</string>
+	<string name="nowid.button.call.number">28881888</string>
+	<string name="nowid.giftcode.expired.text">此禮品編碼已失效。</string>
+	<string name="nowid_setting_giftcode_expired">禮品編碼的用戶:\n您的禮品編碼已失效</string>
+	<string name="nowid_setting_giftcode_expiry_date">禮品編碼的用戶:\n有效時間至:</string>
+	
+	<string name="tabbar.item.interactive.title">发现</string>
+	<string name="patrick_n_friends_title">Patrick n friends \n生字卡</string>
+	<string name="patrick_n_friends_title_nav">Patrick n friends</string>
+	<string name="do_you_know_menu_title">小知識</string>
+	<string name="do_you_know_1">動物與昆蟲</string>
+    <string name="do_you_know_2">人體奧妙</string>
+    <string name="do_you_know_3">食物</string>
+
+    <string name="ptc_title">程式使用時限設定</string>
+    <string name="ptc_on">開</string>
+    <string name="ptc_off">關</string>
+    <string name="ptc_time_limit">時限</string>
+    <string name="ptc_time_limit_1">10 分鐘</string>
+    <string name="ptc_time_limit_2">20 分鐘</string>
+    <string name="ptc_time_limit_3">30 分鐘</string>
+    <string name="ptc_time_limit_4">40 分鐘</string>
+    <string name="ptc_time_limit_5">1 小時</string>
+    <string name="ptc_time_limit_6">2 小時</string>
+    <string name="ptc_play_time_ends_at">程式使用結束時間</string>
+    <string name="ptc_notification_message">小朋友，是時候休息一下</string>
+    <string name="ptc_notification_turnoff">關閉</string>
+    <string name="ptc_password_dialog_title">輸入now ID 密碼</string>
+    <string name="ptc_password_dialog_message">請輸入你的now ID 密碼取消程式使用時限設定</string>
+
+    <string name="interactive.enter">進入</string>
+    
+     <string name="interactive_watch_n_learn_list_title">智叻生字卡</string>
+     <string name="interactive_watch_n_learn__title">智叻生字卡</string>
+     
+     <string name="interactive_download_fail_title">抱歉</string>
+    <string name="interactive_download_fail_message">連線失敗, 請檢查您的網絡連線。</string>
+   <string name="interactive_download_fail_confirm">確定</string>
+     
+     <string name="setting_more_game">更多遊戲</string> 
+     <string name="setting_tutorial">now player Jr.教學</string> 
+     <string name="setting_tutorial_skip">跳過簡介</string>
+ 	<string name="setting_tutorial_login">登入now ID啟用</string>
+ 	<string name="setting_tutorial_register">免費登記</string>
+    <string name="setting_tutorial_guest">以訪客身份啟用</string>
+    <string name="setting_tutorial_welcome">歡迎</string>
+     
+     <string name="jrclub_wecome_text">now TV 新成立的Junior Club專為已申請智醒兒童組合的客戶而設，為會員舉辦親子活動及提供各樣優惠，豐富你小朋友的成長歷程，讓孩子成為明日智醒兒童！</string>
+     <string name="jrclub_benfits_title">會員優惠</string>
+     <string name="jrclub_news_title">最新消息</string>
+    <!-- Notification -->
+    <string name="notification.open.label">開啟</string>
+    <string name="notification.close.label">關閉</string>
+    
+    <string name="interactive_sing_with_olive_title">Sing with Olive</string>
+    
+    
+</resources>

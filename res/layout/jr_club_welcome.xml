@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/series_bg_repeat"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,DuplicateIds,UselessParent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/jr_club_welcome_bg_mask"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clipChildren="false"
+            android:clipToPadding="false" >
+
+           
+            <ImageView
+                android:id="@+id/jr_club_welcome_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/jr_club_welcome_title" />
+
+            <Button
+                android:id="@+id/jrclub_logon_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/logon_button_selector"
+                android:shadowColor="#99450e"
+                android:shadowDy="-1"
+                android:shadowRadius="1"
+                android:text="@string/interactive.enter"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/jr_club_welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="180dp"
+                android:gravity="center"
+                android:maxWidth="280dp"
+                android:textColor="#275eb9"
+                android:text="@string/jrclub_wecome_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            
+             <ImageView
+                android:id="@+id/jr_club_welcome_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/jr_club_welcome_text"
+                android:layout_marginTop="80dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jr_club_welcome_img" />
+            
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    
+
+   
+
+</RelativeLayout>

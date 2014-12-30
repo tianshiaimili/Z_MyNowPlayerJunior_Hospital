@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/series_bg_repeat"
+    android1:orientation="vertical" >
+
+    <TextView
+        android1:id="@+id/category_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="内容即将呈现............"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/categorygridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alwaysDrawnWithCache="true"
+        android:animationCache="true"
+        android:gravity="center"
+        android:numColumns="2"
+        android:scrollingCache="true" >
+    </GridView>
+
+</LinearLayout>

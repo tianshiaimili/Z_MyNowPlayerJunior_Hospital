@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/mp_controlBar"
+        android:layout_width="fill_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:background="#BF000000" />
+
+    <LinearLayout
+        android:id="@+id/classPanel1"
+        android:layout_width="75dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/classImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp" />
+
+    </LinearLayout>
+
+	<LinearLayout
+        android:id="@+id/epgPanel1"
+        android:layout_width="75dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/epgChannelLogo"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+    
+	<TextView
+	    android:id="@+id/textArea"
+	    android:layout_width="wrap_content"
+	    android:layout_height="18dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignRight="@+id/progress"
+	    android:text="LIVE"
+	    android:paddingRight="8dp"
+	    android:textColor="#FFFFFF"
+	    android:textSize="10dp" />
+	
+	<LinearLayout
+        android:id="@+id/classPanel2"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="-120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/classPanel1"
+        android:layout_toLeftOf="@id/textArea" >
+
+       
+        <TextView
+            android:id="@+id/classText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:minLines="1"
+            android:ellipsize="end"
+            android:text="TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView "
+            android:textColor="#5F5E5D"
+            android:textSize="7sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/epgPanel2"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginLeft="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/epgPanel1"
+        android:layout_toLeftOf="@id/textArea">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:id="@+id/programTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#787878"
+                android:textSize="10dp" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text = "&#160;&#160;&#160;&#160;&#160;" />
+
+            <TextView
+                android:id="@+id/programName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#E0E0E0"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:paddingLeft="30dip"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@id/classPanel2"
+        android:layout_toRightOf="@id/classPanel1"
+        android:background="@drawable/mp_btn_pause" />
+    
+    <ImageView
+        android:id="@+id/progressBg"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_above="@id/classPanel2"
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/pause"
+        android:background="#BF000000" />
+
+    <ImageButton
+        android:id="@+id/screenModeToggle"
+        android:layout_alignBottom="@id/classPanel2"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="18dp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:background="@drawable/mp_btn_close" />
+    
+    <ImageButton
+        android:id="@+id/multiaudio"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@id/classPanel2"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="24dp"
+        android:layout_toLeftOf="@id/screenModeToggle"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_player_audio_disable"
+        android:background="@android:color/transparent" />
+
+
+
+    <SeekBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/classPanel2"
+        android:layout_marginBottom="34dp"
+        android:layout_toLeftOf="@id/multiaudio"
+        android:layout_toRightOf="@id/pause"
+        android:paddingLeft="5dp"
+        android:paddingRight="8dp"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/thumb"
+        android:minHeight="4dip"
+        android:maxHeight="4dip"
+        android:thumbOffset="5dp" />
+
+
+</RelativeLayout>

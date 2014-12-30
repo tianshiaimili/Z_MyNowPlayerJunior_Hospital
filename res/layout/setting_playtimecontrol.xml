@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,UselessLeaf" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/series_bg_repeat"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingTop="16dp" >
+
+        <RelativeLayout
+            android:id="@+id/sectionToggle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/btnPlayTimeControlToggle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/setting_cell_bg_selector"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:text="@string/ptc_title"
+                android:textColor="@color/SettingTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkPlayTimeControl"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/switch_selector"
+                android:button="@null"
+                android:clickable="false" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/sectionTimeLimit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <Button
+                android:id="@+id/btnTimeLimit"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/setting_cell_bg_selector"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:text="@string/ptc_time_limit"
+                android:textColor="@color/SettingTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/diTimeLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/disclosureindicator" />
+            
+			<TextView
+                android:id="@+id/txtTimeLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/diTimeLimit"
+                android:textColor="@color/SettingTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            
+        </RelativeLayout>
+
+        
+        <RelativeLayout
+            android:id="@+id/sectionPlayTimeEndsAt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <Button
+                android:id="@+id/btnPlayTimeEndsAt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/setting_cell_bg"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:text="@string/ptc_play_time_ends_at"
+                android:textColor="@color/SettingTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPlayTimeEndsAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="12:34:56"
+                android:textColor="@color/SettingTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

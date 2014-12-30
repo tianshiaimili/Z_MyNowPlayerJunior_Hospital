@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,DuplicateIds,UselessParent">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="118dp"
+         android:padding="8dp">
+
+         <ImageView
+             android:id="@+id/jr_club_icon_image"
+             android:layout_width="100dp"
+             android:layout_height="102dp"
+             android:adjustViewBounds="true"
+             android:src="@drawable/jr_club_news_thumbnail_bg" />
+         
+         <ImageView
+             android:id="@+id/jr_club_type"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="8dp"
+             android:layout_toRightOf="@id/jr_club_icon_image"
+             android:src="@drawable/jr_club_news_latess" />
+
+         <TextView
+             android:id="@+id/jr_club_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="16dp"
+             android:layout_marginTop="20dp"
+             android:ellipsize="end"
+             android:maxLines="4"
+             android:layout_toRightOf="@+id/jr_club_icon_image"
+             android:textColor="@color/JrClubNewsTextColor"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+         
+     </RelativeLayout>
+
+     <ImageView
+         android:id="@+id/jr_club_listview_line"
+         android:layout_width="fill_parent"
+         android:layout_height="1dp"
+         android:background="@color/JrClubNewsSeperatorColor" />
+     
+</LinearLayout>

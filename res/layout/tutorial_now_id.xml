@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:alpha="1" >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />
+
+    <Button
+        android:id="@+id/setting_tutorial_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295dp"
+        android:background="@drawable/tut_btn_nowid_login"
+        android:shadowColor="@color/TutOrangeButtonTextShadowColor"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/setting_tutorial_login"
+        android:textColor="@color/TutOrangeButtonTextColor"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/setting_tutorial_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_tutorial_login"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tut_btn_nowid_login"
+        android:shadowColor="@color/TutOrangeButtonTextShadowColor"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/setting_tutorial_register"
+        android:textColor="@color/TutOrangeButtonTextColor"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/setting_tutorial_guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_tutorial_register"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tut_btn_nowid_start"
+        android:shadowColor="@color/TutBlackButtonTextShadowColor"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/setting_tutorial_guest"
+        android:textColor="@color/TutBlackButtonTextColor"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,238 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,UselessLeaf" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/series_bg_repeat"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingTop="16dp" >
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sectionPlayTimeSelect"
+            android:layout_alignLeft="@+id/sectionPlayTimeSelect"
+            android:layout_alignRight="@+id/sectionPlayTimeSelect"
+            android:layout_alignTop="@+id/sectionPlayTimeSelect"
+            android:scaleType="fitXY"
+            android:src="@drawable/setting_cell_bg" />
+        
+        <LinearLayout
+            android:id="@+id/sectionPlayTimeSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+        
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <ImageView
+                    android:id="@+id/checkmarkPlayTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/checkmark" />
+
+                <Button
+                    android:id="@+id/btnPlayTime1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:text="@string/ptc_time_limit_1"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/seperator_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <ImageView
+                    android:id="@+id/checkmarkPlayTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/checkmark" />
+
+                <Button
+                    android:id="@+id/btnPlayTime2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:text="@string/ptc_time_limit_2"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/seperator_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <ImageView
+                    android:id="@+id/checkmarkPlayTime3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/checkmark" />
+
+                <Button
+                    android:id="@+id/btnPlayTime3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:text="@string/ptc_time_limit_3"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/seperator_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <ImageView
+                    android:id="@+id/checkmarkPlayTime4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/checkmark" />
+
+                <Button
+                    android:id="@+id/btnPlayTime4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:text="@string/ptc_time_limit_4"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/seperator_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <ImageView
+                    android:id="@+id/checkmarkPlayTime5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/checkmark" />
+
+                <Button
+                    android:id="@+id/btnPlayTime5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:text="@string/ptc_time_limit_5"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/seperator_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <ImageView
+                    android:id="@+id/checkmarkPlayTime6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/checkmark" />
+
+                <Button
+                    android:id="@+id/btnPlayTime6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:text="@string/ptc_time_limit_6"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

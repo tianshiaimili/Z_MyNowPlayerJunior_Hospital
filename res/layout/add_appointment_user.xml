@@ -1,0 +1,434 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription" >
+	<include layout="@layout/tabbar_head"/>
+	
+	 <LinearLayout
+        android:id="@+id/adduserDialogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_below="@layout/tabbar_head"
+        android:layout_marginTop="50dp"
+        >
+
+         <TextView
+        android:id="@+id/add_U_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:text="姓名 :"
+        android:textColor="#575757"
+        android:textSize="19sp" />
+        
+        <EditText
+            android:id="@+id/add_U_name_editT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入您的姓名"
+             />
+
+        <TextView
+        android:id="@+id/add_U_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:text="性别 :"
+        android:textColor="#575757"
+        android:textSize="19sp" />
+        
+        <RadioGroup 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/radiogroup_background"
+            >
+            
+            <RadioButton
+                android:id="@+id/man_radioB" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男"
+        android:textSize="19sp"
+        android:background="@color/radiobutton_man_background"
+        android:textColor="@android:color/black"    
+        android:gravity="center" 
+        android:button="@null"
+		android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:checked="true"
+        
+                />
+             <RadioButton 
+                 android:id="@+id/woman_radioB" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女"
+        android:textSize="19sp"
+		android:background="@color/radiobutton_woman_background"
+        android:textColor="@android:color/black"    
+        android:gravity="center" 
+        android:button="@null"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+                />
+            
+        </RadioGroup>
+        <!-- 生日 -->
+        <TextView
+        android:id="@+id/add_U_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="生日 :"
+        android:textColor="#575757"
+        android:textSize="19sp" />
+        
+                <EditText
+            android:id="@+id/add_U_date_TextV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请选择出生日期"
+            android:inputType="date"
+            />
+        
+        
+        <Button
+            android:id="@+id/comfirtButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="确认添加"
+            android:textSize="19sp"
+            android:background="@color/button_selector"
+             />
+    </LinearLayout>
+	
+	
+   	<!-- <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/navbg" />
+
+    <ImageView
+        android:id="@+id/imageViewnav_nowplayer_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/nav_nowplayer_logo" />
+
+    <TextView
+        android:id="@+id/nav_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/imageViewnav_nowplayer_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#00347a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:shadowColor="#b3d1ff"
+        android:shadowDy="-1"
+        android:visibility="invisible"
+         />
+    
+        <Button
+            android:id="@+id/nav_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewnav_nowplayer_logo"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/nav_back_btn"
+            android:shadowColor="@color/Nav_Back_Title_Shadow"
+            android:shadowDy="-1"
+            android:shadowRadius="0.1"
+            android:text="Back"
+            android:textColor="@color/Nav_Back_Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+             />
+
+        <Button
+            android:id="@+id/nav_logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewnav_nowplayer_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/nav_item_btn"
+            android:shadowColor="@color/Nav_Back_Title_Shadow"
+            android:shadowDy="-1"
+            android:shadowRadius="0.1"
+            android:text="Logout"
+            android:textColor="@color/Nav_Back_Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="invisible" /> -->
+    
+    <!-- <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tabbar_bg3" />
+
+
+    
+    <LinearLayout
+        android:id="@+id/tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:background="@color/TabBar_Title_Active2"
+        android:layout_below="@id/fragment_container"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton1"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" 
+                />
+
+            <TextView
+                android:id="@+id/split_line1"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:background="@color/split_line_color"
+				android:layout_alignParentRight="true"
+	             />
+            
+            
+            <TextView
+                android:id="@+id/tabbarTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/yuyue"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" />
+
+                <TextView
+                android:id="@+id/split_line2"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:background="@color/split_line_color"
+				android:layout_alignParentRight="true"
+	             />
+            
+            <TextView
+                android:id="@+id/tabbarTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/mine"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+ 
+
+ 
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel_active"
+                android:tag="btn" />
+
+                <TextView
+                android:id="@+id/split_line3"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:background="@color/split_line_color"
+				android:layout_alignParentRight="true"
+	             />
+            
+            <TextView
+                android:id="@+id/tabbarTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/find"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel_active"
+                android:tag="btn" />
+
+            
+            <TextView
+                android:id="@+id/tabbarTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/more"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+        
+    </LinearLayout> -->
+
+</RelativeLayout>

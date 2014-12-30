@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#792a03" />
+
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+    <item android:top="1px">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="270"
+                android:startColor="#ffdb8f"
+                android:endColor="#ffdb8f" />
+
+            <padding
+                android:bottom="3dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="3dp" />
+
+            <corners android:radius="20dp" />
+        </shape>
+    </item> -->
+     
+        
+          <item android:state_pressed="true">
+        <shape>
+			<solid android:color="#FC6E36AA" />
+			<gradient android:endColor="#FFFFFF" android:gradientRadius="270" android:startColor="#ff8c00" android:type="radial" />
+            <stroke android:width="2dp" android:color="#CCCCCC" />
+            <corners android:bottomLeftRadius="25dp" android:bottomRightRadius="25dp" android:topLeftRadius="25dp" android:topRightRadius="25dp" />
+        </shape>
+        
+     </item>
+    
+          
+          <!-- 不点击时 -->
+          
+    <item>
+        <shape>
+            <solid android:color="#CCCCCC"  />
+            <stroke android:width="1dp" android:color="#CCCCCC" />
+            <corners android:bottomLeftRadius="25dp" android:bottomRightRadius="25dp" android:topLeftRadius="25dp" android:topRightRadius="25dp" />
+        </shape>
+     </item>
+     
+        <item android:bottom="3px">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="270"
+                android:startColor="#EEEEEE"
+                android:endColor="#EEEEEE" />
+
+            <padding
+                android:bottom="2dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="2dp" />
+
+            <corners android:bottomLeftRadius="27dp" android:bottomRightRadius="27dp" android:topLeftRadius="27dp" android:topRightRadius="27dp" />
+        </shape>
+    </item>
+    
+    <!-- _______________________ -->
+    
+<!--         <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#792a03" />
+
+            <corners android:radius="19dp"  />
+        </shape>
+    </item>
+    <item android:bottom="1px">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="270"
+                android:startColor="#ffdb8f"
+                android:endColor="#ffdb8f" />
+
+            <padding
+                android:bottom="2dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="2dp" />
+
+            <corners  android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" />
+        </shape>
+    </item> -->
+
+</layer-list>

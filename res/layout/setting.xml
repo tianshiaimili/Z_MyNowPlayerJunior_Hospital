@@ -1,0 +1,304 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/series_bg_repeat"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,UselessLeaf">
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/bg"
+	    android:clipChildren="false"
+	    tools:context=".TestMainActivity"
+	    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,UselessLeaf" >
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/series_bg_repeat"
+	        android:orientation="vertical"
+	        android:paddingBottom="50dp"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:paddingTop="16dp" >
+	
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/btnNowId"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="now ID"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <ImageView
+	                android:id="@+id/diNowId"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:src="@drawable/disclosureindicator" />
+	
+	            <TextView
+	                android:id="@+id/txtNowId"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:layout_toLeftOf="@+id/diNowId"
+	                android:text="已登入"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/btnLanguage"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="Language"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <ImageView
+	                android:id="@+id/diLanguage"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:src="@drawable/disclosureindicator" />
+	
+	            <TextView
+	                android:id="@+id/txtLanguage"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:layout_toLeftOf="@+id/diLanguage"
+	                android:text="中文"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/btnStream3G"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="Streaming in 3G data"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <CheckBox
+	                android:id="@+id/chkStream3G"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:background="@drawable/switch_selector"
+	                android:button="@null" />
+	
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/btnPushAlert"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="Push Notification"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <CheckBox
+	                android:id="@+id/chkPushAlert"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:background="@drawable/switch_selector"
+	                android:button="@null" />
+	
+	        </RelativeLayout>
+	
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/btnPlayTimeControl"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="Play Time Control"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <ImageView
+	                android:id="@+id/diPlayTimeControl"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:src="@drawable/disclosureindicator" />
+	
+	            <TextView
+	                android:id="@+id/txtPlayTimeControl"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerVertical="true"
+	                android:layout_toLeftOf="@id/diPlayTimeControl"
+	                android:layout_marginRight="10dp"
+	            	android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold"  />
+	
+	        </RelativeLayout>        
+	
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/more_game_bt"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="More Game"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <ImageView
+	                android:id="@+id/more_game_iv"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:src="@drawable/disclosureindicator" />
+	            
+	        </RelativeLayout>
+			
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/btnServiceNotice"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="Serivce Notice"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <ImageView
+	                android:id="@+id/diServiceNotice"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:src="@drawable/disclosureindicator" />
+	            
+	        </RelativeLayout>
+	        
+			<RelativeLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:layout_marginBottom="20dp"
+	            android:layout_marginTop="10dp" >
+	
+	            <Button
+	                android:id="@+id/setting_tutorial"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:background="@drawable/setting_cell_bg_selector"
+	                android:gravity="center_vertical|center_horizontal|left"
+	                android:paddingLeft="20dp"
+	                android:text="@string/setting_tutorial"
+	                android:textColor="@color/SettingTextColor"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+	
+	            <ImageView
+	                android:id="@+id/more_game_iv"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dp"
+	                android:src="@drawable/disclosureindicator" />
+	            
+	        </RelativeLayout>
+	        
+	    </LinearLayout>
+	
+	</RelativeLayout>
+    
+</ScrollView>
+
+</LinearLayout>

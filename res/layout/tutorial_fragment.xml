@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tut_bg"
+    android:orientation="vertical" >
+    
+    <!-- tutorial image dimension 356 x 494 -->
+    
+    <android.support.v4.view.ViewPager
+       android:id="@+id/viewPager"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_marginTop="12dp"
+       android:layout_marginBottom="12dp"
+       android:flipInterval="30"
+       android:persistentDrawingCache="animation"
+       android:background="@drawable/tut_bg_cloud_repeat" />
+    
+   <Button
+       android:id="@+id/tutorial_skip"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="12dp"
+       android:layout_gravity="center_horizontal"
+       android:background="@drawable/tut_btn_skip"
+       android:text="@string/setting_tutorial_skip"
+       android:textColor="@color/TutSkipButtonTextColor"
+       android:textSize="12sp" />
+    
+    <com.hua.gz.widget.PageIndexer
+	   	android:orientation="horizontal" 
+	   	android:id="@+id/page_indexer" 
+	   	android:layout_width="wrap_content" 
+	   	android:layout_height="wrap_content" 
+	   	android:layout_marginBottom="12dp"
+	   	android:layout_gravity="center_horizontal|bottom" />
+ 
+</LinearLayout>

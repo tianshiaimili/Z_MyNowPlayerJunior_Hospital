@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">now player Jr.</string>
+	<string name="error.alert.parentallock.message">The programs chosen cannot be played temporarily. Please try again later </string>
+    <string name="error.alert.hdmi.message">Sorry! This application does not support HDMI output.</string>
+    <string name="error.geo.check.failed">Sorry! now player Jr. service is not available in your area.</string>
+	<string name="error.alert.email.not.verified.message">Your email has not been verified, please go to your registered email inbox to complete the verification process.</string>
+
+    <string name="alert.subscribe.now.junior.title">Content Not Subscribed</string>
+    <string name="alert.subscribe.now.junior.message">Sorry! You have not subscribed to now Junior Pack yet. Please call our sales hotline at 2888 0008 &amp; press "2" to subscribe.</string>
+    <string name="alert.subscribe.specialFeature.title">Content Not Subscribed</string>
+    <string name="alert.subscribe.specialFeature.message">Sorry! You have not subscribed to now Junior Pack yet. Please call our sales hotline at 2888 0008 &amp; press "2" to subscribe.</string>
+    
+    <string name="nowid.landing.free_register">Free Register</string>
+    <string name="nowid.landing.subscribe_desc">Subscribe to now Junior Pack \nto enjoy the educational and fun contents at now player junior app!</string>
+    <string name="nowid.landing.activate.text">Activate your Gift Code</string>
+    <string name="nowid.landing.activate.button">Activate</string>
+    <string name="nowid_landing_register_giftcode_url">http://freekids.nowtv.now.com/giftcode/promotion/signin?lang=en</string>
+    <string name="nowid.connect.desc">Please connect your now ID to enjoy your \nnow Junior Pack services \non now player Junior app.</string>
+    <string name="nowid.button.connect">Connect</string>
+    <string name="nowid.not.subscribed.text">You have not subscribed to now Junior Pack yet.</string>
+    <string name="nowid.subscribe.now.text">Subscribe now Junior Pack now !</string>
+    <string name="nowid.call.now.text">Please call our sales hotline at 2888 0008 &amp; press \"2\" to subscribe</string>
+    <string name="nowid.button.call">Call now</string>
+    <string name="nowid.button.call.number">28880008</string>
+    <string name="nowid.giftcode.expired.text">Your gift code is expired. </string>
+    <string name="nowid_setting_giftcode_expired">For Gift Code user\nYour gift code is expired.</string>
+    <string name="nowid_setting_giftcode_expiry_date">For Gift Code user\nExpiry date:</string>
+    
+    
+    <string name="tabbar.item.interactive.title">Fun &amp; Games</string>
+	<string name="patrick_n_friends_title">Patrick n friends \nFlash Card</string>
+	<string name="patrick_n_friends_title_nav">Patrick n friends</string>
+	<string name="do_you_know_menu_title">Do You Know</string>
+	<string name="do_you_know_1">Animals and Insects</string>
+    <string name="do_you_know_2">Human Body</string>
+    <string name="do_you_know_3">Food</string>
+    
+    <string name="ptc_title">Play Time Control</string>
+    <string name="ptc_on">On</string>
+    <string name="ptc_off">Off</string>
+    <string name="ptc_time_limit">Time Limit</string>
+    <string name="ptc_time_limit_1">10 minutes</string>
+    <string name="ptc_time_limit_2">20 minutes</string>
+    <string name="ptc_time_limit_3">30 minutes</string>
+    <string name="ptc_time_limit_4">40 minutes</string>
+    <string name="ptc_time_limit_5">1 hour</string>
+    <string name="ptc_time_limit_6">2 hours</string>
+    <string name="ptc_play_time_ends_at">Play Time Ends at</string>
+    <string name="ptc_notification_message">Hi kids, time to take a rest.</string>
+    <string name="ptc_notification_turnoff">Turn Off</string>
+    <string name="ptc_password_dialog_title">Enter nowID Password</string>
+    <string name="ptc_password_dialog_message">Please fill in your now ID password to deactivate Play Time Control</string>
+
+    <string name="interactive.enter">Enter</string>
+    
+    <string name="interactive_watch_n_learn_list_title">Watch n Learn \nFlash Card</string>
+    <string name="interactive_watch_n_learn__title">Watch n Learn </string>
+    <string name="tab_jrclub_title">Jr. Club</string> 
+    
+    <string name="interactive_download_fail_title">Sorry</string>
+    <string name="interactive_download_fail_message">Failed to connect, please check your network connection.</string>
+   <string name="interactive_download_fail_confirm">Confirm</string>
+   
+   
+    <string name="setting_more_game">More Games</string> 
+    <string name="setting_tutorial">now player Jr. Tutorial</string>
+    <string name="setting_tutorial_skip">Skip tour</string>
+    <string name="jrclub_wecome_text">now TV Junior Club is dedicated to now Junior Pack subscribers. Enrich your children\'s learning through vivid and interesting programs from our Junior Club!</string> 
+ 	<string name="jrclub_benfits_title">Benefits</string>
+    <string name="jrclub_news_title">News</string>
+ 	<string name="setting_tutorial_login">Login to Start</string>
+ 	<string name="setting_tutorial_register">Free Register</string>
+    <string name="setting_tutorial_guest">Start as Guest</string>
+    <string name="setting_tutorial_welcome">Welcome</string>
+ 	
+    <!-- Notification -->
+    <string name="notification.open.label">Launch</string>
+    <string name="notification.close.label">Close</string>
+    
+    <string name="interactive_sing_with_olive_title">Sing with Olive</string>
+    
+    <string name="yuyue">预约</string>
+    <string name="mine">我的</string>
+    <string name="find">发现</string>
+    <string name="more">更多</string>
+    <string name="title_yuyue">预约</string>
+    <string name="title_yuyue_mind">我的预约</string>
+    <string name="title_yuyue_finish">完成预约</string>
+    <string name="title_yuyue_addUser">添加预约人</string>
+   	<string name="title_mind">我的</string>
+    <string name="title_find">发现</string>
+    <string name="title_more">更多</string>
+    
+    
+    
+    
+</resources>

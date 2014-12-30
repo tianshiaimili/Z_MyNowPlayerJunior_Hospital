@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu Strings -->
+    <string name="menu_search">Search Programs</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">About</string>
+    <string name="menu_share">Share</string>
+    
+    <string name="search_hint">Search</string>
+    
+	<!-- for tabbar -->
+	<string name="tabbar.item.live.title">Channel</string>
+	<string name="tabbar.item.program.title">On Demand</string>
+	<string name="tabbar.item.movie.title">Movies</string>
+	<string name="tabbar.item.videoexpress.title">Video Express</string>
+	<string name="tabbar.item.userguide.title">Service Notices</string>
+	<string name="tabbar.item.setting.title">Settings</string>
+	
+	<string name="navigationbar.item.back">Back</string>
+	
+	<string name="alert.open.in.safari.title"></string>
+	<string name="alert.open.in.safari.message">This will navigate away from the now Player apps. Do you want to proceed?</string>
+	<string name="alert.button.cancel">Cancel</string>
+	<string name="alert.button.proceed">Proceed</string>
+	<string name="alert.button.ok">OK</string>
+	<string name="alert.button.accept">Accept</string>
+	<string name="alert.button.decline">Decline</string>
+	<string name="alert.button.back">Back</string>
+	
+	<string name="setting.label">Settings</string>
+	<string name="setting.language.label">語言</string>
+	<string name="setting.language.en.label">English</string>
+	<string name="setting.language.zh.label">中文</string>
+	<string name="setting.nowid.label">now ID Profile</string>
+	<string name="setting.nowid.title.label">now ID account</string>
+	<string name="setting.nowid.loggedout.label">Not Logged In</string>
+	<string name="setting.nowid.loggedin.label">Logged In</string>
+	<string name="setting.nowid.notverified.label">Verification pending</string>
+	<string name="setting.nowid.notbinded.label">Decoder not connected</string>
+	<string name="setting.nowid.binded.label">Decoder connected</string>
+	<string name="setting.nowid.logout.label">Logout</string>
+	<string name="setting.nowid.bind.label">Connect</string>
+	<string name="setting.nowid.unbind.label">Disconnect</string>
+	<string name="setting.nowid.unbind.fail.message">Sorry! System busy. Please try again later.</string>
+	<string name="setting.nowid.yournowid.label">Your now ID</string>
+	<string name="setting.nowid.changepassword.label">Change Password</string>
+	<string name="setting.nowid.emailnotverified.header">Email Verification</string>
+	<string name="setting.nowid.emailnotverified.message">Your email address has not been verified yet, please go to your registered email box to complete the verification process.</string>
+	<string name="setting.nowid.binding.header">now TV Decoder</string>
+	<string name="setting.nowid.binding.bind.message">Connect your now ID allows you to enjoy now TV service on computer</string>
+	<string name="setting.nowid.binding.unbind.message">If you need to connect to another decoder, please press here to disconnect from the current decoder and then re-connect with another decoder.</string>
+	<string name="setting.nowid.binding.unbind.alert.header">Disconnect now ID</string>
+	<string name="setting.nowid.binding.unbind.alert.message">Confirm to disconnect now ID?</string>
+	<string name="setting.nowid.binding.unbind.alert.confirm">Confirm</string>
+	<string name="setting.nowid.binding.unbind.alert.cancel">Cancel</string>
+	<string name="setting.nowfamily.label">Related Apps</string>
+	<string name="setting.nowid.nowdollar.balance.title">now DOLLAR account balance</string>
+	<string name="setting.nowid.nowdollar.balance">now DOLLAR balance</string>
+	<string name="setting.nowid.nowdollar.balance.expiry">Expire Date</string>
+	
+	<string name="setting.enable.3g.checkout.prompt.title"></string>
+	<string name="setting.enable.3g.checkout.prompt.message">\"Play under mobile data network\" is closed in Settings, if you agree to watch the videos under a mobile data network, please change your settings. Users should keep track of their data usage and data charge.</string>
+	<string name="setting.enable.3g.checkout.prompt.goto.setting">Go to Settings</string>
+	<string name="setting.enable.3g.checkout.prompt.confirm">Confirm</string>
+	<string name="setting.enable.3g.playback.prompt.title"></string>
+	<string name="setting.enable.3g.playback.prompt.message">Attention: You have switched from a Wi-Fi network to mobile data network.</string>
+	<string name="setting.enable.3g.playback.prompt.cancel">Cancel</string>
+	<string name="setting.enable.3g.playback.prompt.play">Play</string>
+	<string name="setting.quality.selection.title">Please Select Video Quality:</string>
+	<string name="setting.audio.selection.title">Please select audio</string>
+	<string name="setting.quality.selection.low">Low</string>
+	<string name="setting.quality.selection.high">High</string>
+	<string name="setting.pushalert.lable">Push Notifications</string>
+	<string name="setting.bookmark.selection.playfromlastviewedscene">Play from last viewed scene</string>
+	<string name="setting.bookmark.selection.resume">Play from beginning</string>
+	
+	<string name="flah.version.not.accept.title"></string>
+	<string name="flah.version.not.accept.message">Note: Your Flash client is not up-to-date, the now player service may not be supported.</string>
+	<string name="flah.version.not.accept.ok">OK</string>
+	
+	<string name="nowid.login.login.label">For now TV subscribers</string>
+	<string name="nowid.login.callHotline.label">Enjoy full now player experience</string>
+	
+	<string name="alert.subscribe.now.title"></string>
+	<string name="alert.subscribe.now.message">Call Sales Hotline 28880008 (press ‘2’)  to subscribe this channel</string>
+	<string name="subscribe.hotline.tel">tel://28880008</string>
+	<string name="alert.button.cancel">Cancel</string>
+	<string name="alert.button.call">Call now</string>
+	<string name="alert.button.exit">Exit</string>
+	
+	<string name="search.scope.program.text">Programs</string>
+	<string name="search.scope.live.text">Live</string>
+	
+	<string name="tableview.label.load.more.text">Load more. . .</string>
+	<string name="tableview.label.no.result.text">no result</string>
+	<string name="tableview.button.cancel.text">Cancel</string>
+	
+	<string name="userguide.label">Service Notice</string>
+	
+	<string name="vod.genre.title">Genre</string>
+	
+	<string name="alert.terms.and.conditions.title">Terms &amp; Conditions</string>
+	
+	<string name="alert.end.of.program.title">End of program</string>
+	<string name="alert.end.of.program.message">This is the end of the program.</string>
+	<string name="error.alert.video.quality.warning.title"></string>
+	<string name="error.alert.video.quality.warning.message">Note: Video streaming quality depends on your data connection condition and bandwidth availability. If you experience pixellated video or audio/video synchronization problems, please check your network condition.</string>
+	<string name="error.alert.geo.block.title"></string>
+	<string name="error.alert.geo.block.message">Sorry! The program is not available in your area. For more now TV programs, please quit and restart the app.</string>
+	<string name="error.alert.geo.block.quit">Quit</string>
+	<string name="error.alert.connection.timeout.title">Connection lost</string>
+	<string name="error.alert.connection.timeout.message">Please check your internet or data connection.</string>
+	<string name="error.alert.general.error.title">Sorry!</string>
+	<string name="error.alert.general.error.message">System busy. Please try again later.</string>
+	<string name="error.alert.general.button.back">Back</string>
+	<string name="error.alert.sharpcut.message">Please note that the video streaming will be terminated at %1$s</string>
+	
+	<!-- proxy server error code -->
+	<string name="error.alert.proxy.server.code.80001">System busy. Please try again later.(80001)</string>
+	<string name="error.alert.proxy.server.code.80002">System busy. Please try again later.(80002)</string>
+	<string name="error.alert.proxy.server.code.80003">System busy. Please try again later.(80003)</string>
+	<string name="error.alert.proxy.server.code.80004">System busy. Please try again later.(80004)</string>
+	<string name="error.alert.proxy.server.code.80005">System busy. Please try again later.(80005)</string>
+	<string name="error.alert.proxy.server.code.80006">System busy. Please try again later.(80006)</string>
+	<string name="error.alert.proxy.server.code.80011">System busy. Please try again later.(80011)</string>
+	<string name="error.alert.proxy.server.code.80012">System busy. Please try again later.(80012)</string>
+	<string name="error.alert.proxy.server.code.80015">Each now ID user can only watch one program or live channel of now Player Jr. simultaneously. Please try again later.(80015)</string>
+	<string name="error.alert.proxy.server.code.80016">System busy. Please try again later.(80016)</string>
+	<string name="error.alert.proxy.server.code.80017">Each PC only allows one now ID at a time to watch program or live channel with now Player Jr., please try later.(80017)</string>
+	<string name="error.alert.proxy.server.code.80018">System busy. Please try again later.(80018)</string>
+	<string name="error.alert.proxy.server.code.80022">System busy. Please try again later.(80022)</string>
+	<string name="error.alert.proxy.server.code.80023">Sorry! You have not subscribed to LIVE Channel/Program yet. Please call our sales hotline at 2888 0008 &amp; press &quot;2&quot; to Apply.(80023)</string>
+	<string name="error.alert.proxy.server.code.80024">Sorry! You have not subscribed to LIVE Channel/Program yet. Please call our sales hotline at 2888 0008 &amp; press &quot;2&quot; to Apply.(80024)</string>
+	<string name="error.alert.proxy.server.code.80025">Each now ID user can only watch one program or live channel of now Player Jr. simultaneously. Please try again later.(80025)</string>
+	<string name="error.alert.proxy.server.code.80026">System busy. Please try again later.(80026)</string>
+	<string name="error.alert.proxy.server.code.80027">Each now ID user can only watch one program or live channel of now Player Jr. simultaneously. Please try again later.(80027)</string>
+	<string name="error.alert.proxy.server.code.80028">To play now Player, please click here &lt;tvbinding.now.com&gt; to connect your now ID with a TV decoder first.(80028)</string>
+	<string name="error.alert.proxy.server.code.80029">To play now Player, please click here &lt;tvbinding.now.com&gt; to connect your now ID with a TV decoder first.(80029)</string>
+	<string name="error.alert.proxy.server.code.80031">System busy. Please try again later.(80031)</string>
+	<string name="error.alert.proxy.server.code.80032">System busy. Please try again later.(80032)</string>
+	<string name="error.alert.proxy.server.code.80033">Sorry! You have not subscribed to LIVE Channel/Program yet. Please call our sales hotline at 2888 0008 &amp; press &quot;2&quot; to Apply.(80033)</string>
+	<string name="error.alert.proxy.server.code.80034">Sorry! You have not subscribed to LIVE Channel/Program yet. Please call our sales hotline at 2888 0008 &amp; press &quot;2&quot; to Apply.(80034)</string>
+	<string name="error.alert.proxy.server.code.80041">System busy. Please try again later.(80041)</string>
+	<string name="error.alert.proxy.server.code.80042">System busy. Please try again later.(80042)</string>
+	<string name="error.alert.proxy.server.code.80043">To play now Player, please click here &lt;tvbinding.now.com&gt; to connect your now ID with a TV decoder first.(80043)</string>
+	<string name="error.alert.proxy.server.code.80044">To play now Player, please click here &lt;tvbinding.now.com&gt; to connect your now ID with a TV decoder first.(80044)</string>
+	<string name="error.alert.proxy.server.code.80121">System busy. Please try again later.(80121)</string>	
+	<string name="error.alert.proxy.server.code.80122">System busy. Please try again later.(80122)</string>	
+	<string name="error.alert.proxy.server.code.80125">Each now ID user can only watch one program of now Video Express Tablet / Smartphone version simultaneously. Please try again later.(80125)</string>	
+	<string name="error.alert.proxy.server.code.80126">System busy. Please try again later.(80126)</string>	
+	<string name="error.alert.proxy.server.code.80127">System busy. Please try again later.(80127)</string>	
+	<string name="error.alert.proxy.server.code.80142">System busy. Please try again later.(80142)</string>	
+	<string name="error.alert.proxy.server.code.80143">System busy. Please try again later.(80143)</string>	
+	<string name="error.alert.proxy.server.code.90001">System busy. Please try again later.(90001)</string>
+	<string name="error.alert.proxy.server.code.90002">System busy. Please try again later.(90002)</string>
+	<string name="error.alert.proxy.server.code.90010">System busy. Please try again later.(90010)</string>
+	<string name="error.alert.proxy.server.code.90011">System busy. Please try again later.(90011)</string>
+	<string name="error.alert.proxy.server.code.90012">System busy. Please try again later.(90012)</string>
+	<string name="error.alert.proxy.server.code.90013">System busy. Please try again later.(90013)</string>
+	<string name="error.alert.proxy.server.code.90027">Each now ID user can only watch one program or live channel of now Player Jr. simultaneously. Please try again later.(90027)</string>
+	<string name="error.alert.proxy.server.code.90050">System busy. Please try again later.(90050)</string>
+	<string name="error.alert.proxy.server.code.90051">System busy. Please try again later.(90051)</string>
+	<string name="error.alert.proxy.server.code.90052">Sorry! You have not subscribed to LIVE Channel/Program yet. Please call our sales hotline at 2888 0008 &amp; press &quot;2&quot; to Apply.(90052)</string>
+	<string name="error.alert.proxy.server.code.90053">Sorry! You have not subscribed to LIVE Channel/Program yet. Please call our sales hotline at 2888 0008 &amp; press &quot;2&quot; to Apply.(90053)</string>
+	<string name="error.alert.proxy.server.code.90054">To play now Player, please click here &lt;tvbinding.now.com&gt; to connect your now ID with a TV decoder first.(90054)</string>
+	<string name="error.alert.proxy.server.code.90055">To play now Player, please click here &lt;tvbinding.now.com&gt; to connect your now ID with a TV decoder first.(90055)</string>
+	<string name="error.alert.proxy.server.code.90056">System busy. Please try again later.(90056)</string>
+	<string name="error.alert.proxy.server.code.90060">System busy. Please try again later.(90060)</string>
+	<string name="error.alert.proxy.server.code.90061">System busy. Please try again later.(90061)</string>
+	<string name="error.alert.proxy.server.code.90062">System busy. Please try again later.(90062)</string>
+	<string name="error.alert.proxy.server.code.90063">System busy. Please try again later.(90063)</string>
+	
+	<string name="warning.alert.enter">Enter</string>
+	<string name="warning.alert.quit">Quit</string>
+	<string name="warning.alert.mature.title">M-Mature Audience</string>
+	<string name="warning.alert.mature">Not suitable for viewers under 18-year-old. \nWARNING︰THIS ARTICLE CONTAINS MATERIAL WHICH MAY OFFEND AND MAY NOT BE DISTRIBUTED , CIRCULATED , SOLD, HIRED , GIVEN , LENT , SHOWN , PLAYED OR PROJECTED TO A PERSON UNDER THE AGE OF 18 YEARS.</string>
+	<string name="warning.alert.aged18.title">III  Persons Aged 18 and Above Only </string>
+	<string name="warning.alert.aged18">WARNING: THIS ARTICLE CONTAINS MATERIAL WHICH MAY OFFEND AND MAY NOT BE DISTRIBUTED, CIRCULATED, SOLD, HIRED, GIVEN, LENT, SHOWN, PLAYED OR PROJECTED TO A PERSON UNDER THE AGE OF 18 YEARS </string>
+	<string name="warning.alert.long.play.title">Overtime Playing Alert</string>
+	<string name="warning.alert.long.play.text">You have already watched this channel for %1$d hours; please press "continue" to resume the live streaming, thank you!</string>
+	<string name="warning.alert.continue">Continue</string>
+	
+    <string name="menu_setting">Settings</string>
+    <string name="menu_refresh">Refresh</string>
+    
+    <string name="setting.3gdata.lable">Play under mobile data network</string>
+    <string name="setting.hdmioutput.lable">HDMI output</string>
+    
+	<string name="progress.dialog.title">Loading</string>
+	<string name="progress.dialog.message">Please wait</string>
+	<string name="progress.dialog.binding">Loading, please wait...</string>
+	<string name="progress.dialog.unbinding">Unbinding, please wait...</string>
+	<string name="progress.dialog.searching">Searching</string>
+	
+	<string name="nowid.button.login">Login</string>
+	
+	<string name="vod.episode.actortitle">Actor/Host</string>
+	
+	<string name="info.load.error.message">Sorry! System busy. Please quit and restart your App.</string>
+	<string name="info.load.error.button">Quit</string>
+	
+	<string name="info.resume.geochange.message">Sorry! The program is not available in your area. For more now TV programs, please quit and restart the app.</string>
+	<string name="info.resume.geochange.positive.button">Quit</string>
+	<string name="info.resume.geochange.negative.button">Cancel</string>
+	
+	<string name="force.upgrade.title">Update Now</string>
+	<string name="force.upgrade.message">Latest version of this app is available, update now?</string>
+	<string name="force.upgrade.button">Update</string><string name="force.upgrade.cancel.button">Later</string>
+	
+	<string name="nowid.landing.register.url">http://reg.now.com/reg/link/nowid_reg_app.jsp?lang=en_US#open</string>
+	
+	<string name="progsearch.program.list">On Demand</string>
+	<string name="progsearch.live.list">Channel</string>
+	<string name="progsearch.movie.list">Movies</string>
+	<string name="progsearch.today.banner">TODAY</string>
+	<string name="progsearch.live.more">More Live results</string>
+	<string name="progsearch.program.more">More Program results</string>
+	<string name="progsearch.movie.more">More Movie results</string>
+	<string name="progsearch.header.othermovie">Other Movie</string>
+	<string name="progsearch.datebanner.format">%1$d %2$s %3$d</string>
+	<string name="error.progsearch">No video results found</string>
+	
+	<string name="parentalcontrol.title">Parental Control</string>
+	<string name="parentalcontrol.firstsetup.title">Content is restricted to adults only.</string>
+	<string name="parentalcontrol.firstsetup.text">Before you watch a program which contains adult content for the first time, we need to verify that you are a now TV subscriber, please provide the following info:</string>
+    <string name="parentalcontrol.firstsetup.document.title">Identity Document Type:</string>   
+    <string name="parentalcontrol.firstsetup.document.number">Document Number:</string>
+    <string name="parentalcontrol.firstsetup.document.number.error">Incorrect document number.  Please re-enter.  If problem persists, please call CS Hotline 1833888 for assistance.</string>
+    <string name="parentalcontrol.firstsetup.nowid.password.hint">Input now ID password</string>
+    <string name="parentalcontrol.firstsetup.nowid.password.error">Incorrect now ID password. Please try again.</string>
+    <string name="parentalcontrol.firstsetup.confirm.checkbox.text"> I confirm I have attained the age of 18 and am a now TV subscriber.</string>
+    <string name="parentalcontrol.firstsetup.confirm.text">The above personal information as submitted will only be used to verify your now TV subscriber identity.</string>
+    <string name="parentalcontrol.firstsetup.confirm.error.text">Attention: This programme is limited to persons aged 18 above who are now TV subscribers.\nPlease confirm your identity as appropriate by checking the box.</string>
+    <string name="parentalcontrol.firstsetup.button">Submit</string>
+    
+    <string name="parentalcontrol.firstsetup.dialog.title">Parental Control setup complete.</string>
+    <string name="parentalcontrol.firstsetup.dialog.text">Parental Control prevents unauthorised viewing of programs which contain adult content.  You must not authorise persons below 18 years of age to view programs which contain adult content.</string>
+    <string name="parentalcontrol.firstsetup.dialog.attention">Attention: Please secure your now ID password and do not disclose to anyone else.</string>
+    <string name="parentalcontrol.firstsetup.dialog.button">Play</string>
+    
+    <string name="parentalcontrol.password.title">The selected program is locked as it contains adult content. Please enter your now ID password to unlock.</string>
+    <string name="parentalcontrol.password.confirm">I confirm I have attained the age of 18 and am a now TV subscriber.</string>
+    <string name="parentalcontrol.password.attention">Attention: Do not disclose your now ID password to anyone else.</string>
+    <string name="parentalcontrol.password.warning">WARNING: THIS ARTICLE CONTAINS MATERIAL WHICH MAY OFFEND AND MAY NOT BE DISTRIBUTED, CIRCULATED, SOLD, HIRED, GIVEN, LENT, SHOWN, PLAYED OR PROJECTED TO A PERSON UNDER THE AGE OF 18 YEARS.  </string>
+    <string name="parentalcontrol.password.confirm.button">Confirm</string>
+    <string name="parentalcontrol.password.input.error">Incorrect now ID password. Please try again.</string>
+    
+    <string name="movie.subcat.spinner.title">Genre</string>
+    <string name="movie.program.actor.title">Starring:</string>
+    <string name="movie.program.duration.title">Duration:</string>
+    <string name="movie.program.language.title">Language:</string>
+    <string name="movie.program.minute.text">" Minutes"</string>
+    
+    <string name="classification.i">Suitable for All Ages</string>
+    <string name="classification.iia">Not Suitable for Children</string>
+    <string name="classification.iib">Not Suitable for Young Persons and Children</string>
+    <string name="classification.iii">Persons Aged 18 and Above Only</string>
+    <string name="classification.warning">WARNING: THIS ARTICLE CONTAINS MATERIAL WHICH MAY OFFEND AND MAY NOT BE DISTRIBUTED, CIRCULATED, SOLD, HIRED, GIVEN, LENT, SHOWN, PLAYED OR PROJECTED TO A PERSON UNDER THE AGE OF 18 YEARS</string>
+    
+    <string name="ve.details.first.title">now Video Express</string>
+    <string name="ve.details.highlighted.title">Highlights</string>
+    <string name="ve.details.actors.title">Starring:</string>
+    <string name="ve.details.duration.title">Duration:</string>
+    <string name="ve.details.language.title">Language:</string>
+    <string name="ve.details.offairdate.title">Off-air Date</string>
+    <string name="ve.details.viewperiod.title">Viewing Period: </string>
+    <string name="ve.details.expiry.title">Expiry date and time</string>
+    <string name="ve.details.expiryperiod.ppv">48 Hours</string>
+    <string name="ve.details.expiryperiod.ppvepisode">48 Hours</string>
+    <string name="ve.details.expiryperiod.ppvseries">30 Days</string>
+    <string name="ve.details.remarks">Remarks: For program(s) purchased on mobile device, it is available for unlimited viewing only on TV &amp; authorized mobile device within %1$s after purchase.</string>
+	<string name="ve.details.icon.hd.title">HDTV Version</string>
+	<string name="ve.details.icon.sd.title">SDTV Version</string>
+	<string name="ve.details.icon.mobile.title">Smartphone/ Tablet Version</string>
+	<string name="ve.details.expand.title">More</string>
+	<string name="ve.details.nowdollarbalance.title">Current now DOLLAR</string>
+	<string name="ve.details.paid.title">Purchased</string>
+	<string name="ve.details.payment.nowdollar">$%1$.0f now DOLLAR</string>
+	<string name="ve.details.payment.cash">$%1$.0f Standard Price</string>
+	<string name="ve.details.payment.free">Free</string>
+	<string name="ve.details.payment.dialog.title">Attention</string>
+	<string name="ve.details.payment.dialog.message">You have already purchased HD/SD version of this program. You can press \"continue\" to purchase another version or press \"back\" to watch the purchased program.</string>
+	<string name="ve.details.payment.dialog.button.positive">Continue</string>
+	<string name="ve.details.payment.dialog.button.negative">Back</string>
+	<string name="ve.details.nowdollar.insufficient.dialog.message">"Sorry, you don't have enough now DOLLAR to purchase the movie.\nPlease top up now DOLLAR on now Video Express website or TV portal."</string>
+	<string name="ve.details.nowdollar.insufficient.dialog.button.negative">Exit</string>
+	<string name="ve.details.dialog.general.title">Sorry!</string>
+	<string name="ve.details.dialog.general.error.title">Sorry!</string>
+	<string name="ve.details.dialog.general.error.button">Back</string>	
+	<string name="ve.details.dialog.restricted.message">The movie you selected is not authorized to play on this mobile device.</string>
+	<string name="ve.details.dialog.restricted.purchase.message">The movie you selected is not authorized to play on this mobile device.</string>
+	<string name="ve.details.svod.coming.soon"> (Coming Soon)</string>
+	
+    <string name="ve.alert.namemobiledevice">Please name this mobile device</string>
+    <string name="ve.alert.namemobiledevice.error.misformat">Please re-name with 3-10 characters of letter and number. Special characters are not supported. </string>
+    <string name="ve.alert.namemobiledevice.error.dupicate">The device name is already in use. Please re-enter.</string>
+    <string name="ve.alert.confirm">Confirm</string>
+    
+    <string name="ve.purchase.movie.title">Purchase Movie</string>
+    <string name="ve.purchase.series.title">Purchase Series</string>
+    <string name="ve.purchase.nowdollar.title">now DOLLAR</string>
+    <string name="ve.purchase.nowdollar.balance.title">now DOLLAR balance</string>
+    <string name="ve.purchase.cash.title">HKD</string>
+    <string name="ve.purchase.remainingbalance.title">Remaining Balance</string>
+    <string name="ve.purchase.thankyou.title">Thank You!</string>
+    <string name="ve.purchase.password.entry.title">Please input now ID password</string>
+    <string name="ve.purchase.password.invalid.title">Invalid Password. Please try again.</string>
+    <string name="ve.purchase.nowdollar.insufficient.title">Sorry, you don\'t have enough now DOLLAR to purchase the movie.\nPlease top up now DOLLAR on now Video Express website or TV portal.\n</string>
+    <string name="ve.purchase.nowdollar.cash.title">The transaction amount will be counted in your now TV bill. </string>
+    <string name="ve.purchase.paywithcash.title">Pay by standard price </string>
+    <string name="ve.purchase.mobile.title">Tablet / Smartphone</string>
+    <string name="ve.purchase.mobilehd.title">HDTV Version </string>
+    <string name="ve.purchase.mobilesd.title">SDTV Version</string>
+    <string name="ve.purchase.ppv.text">48 hours</string>
+    <string name="ve.purchase.ppvs.text">30 days</string>
+    <string name="ve.purchase.ppve.text">48 hours</string>
+    <string name="ve.purchase.password.error.text">Invalid Password. Please try again.</string>
+    <string name="ve.purchase.sdpurchasehd.error.text">You have not registered for our HDTV service. Please call our sales hotline at 2888 0008.</string>
+    <string name="ve.purchase.concurrentplaying.error.text">Each now ID user can only watch one program of now Video Express Tablet / Smartphone version simultaneously. Please try again later.</string>
+    <string name="ve.purchase.concurrentpurchase.error.text">Each now ID user cannot purchase any movie or subscribe to any plan when streaming has already started on Tablet / Smartphone. Please try again later.</string>
+    <string name="ve.purchase.nowdollar.insufficient2.title">You can also pay for the movie by standard price directly.</string>
+    <string name="ve.purchase.success.play">Play</string>
+    <string name="ve.purchase.exit">Exit</string>
+    <string name="ve.general.error">System busy. Please try again later.\nFor assistance, please call our Customer Service Hotline 1833 888</string>
+    <string name="ve.cannot.play">The programs chosen cannot be played temporarily. Please try again later. </string>
+    <string name="ve.geo.failed">now Video Express is not available in your area yet.</string>
+    <string name="ve.purchase.service.subscription">Subscription</string>
+    <string name="ve.purchase.service.devicecontrol"></string>
+    
+    <string name="ve.purchase.classification.i">適 合 任 何 年 齡 人 士 觀 看\nSuitable for All Ages</string>
+    <string name="ve.purchase.classification.iia">兒 童 不 宜\nNot Suitable for Children</string>
+    <string name="ve.purchase.classification.iib">青 少 年 及 兒 童 不 宜\nNot Suitable for Young Persons and Children</string>
+    <string name="ve.purchase.classification.iii">只 准 18 歲 或 以 上 人 士 觀 看\nPersons Aged 18 and Above Only</string>
+    <string name="ve.purchase.classification.warning">警告： 本物品內容可能令人反感；不可將本物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士或將本物品向該等人士出示、播放或放映。\nWARNING: THIS ARTICLE CONTAINS MATERIAL WHICH MAY OFFEND AND MAY NOT BE DISTRIBUTED, CIRCULATED, SOLD, HIRED, GIVEN, LENT, SHOWN, PLAYED OR PROJECTED TO A PERSON UNDER THE AGE OF 18 YEARS</string>
+    
+    <string name="ve.myplaylist.title">My Playlist</string>
+    <string name="ve.myplaylist.text">All of the movies below are available for viewing on now Video Express First (Ch 106) in TV and in authorized mobile device only.</string>
+    <string name="ve.myplaylist.expiry.title">Expiry date and time </string>
+    <string name="ve.myplaylist.authorizeddevice.title">Authorized Device: </string>
+    <string name="ve.myplaylist.notyetauthorized.title">Not yet authorized</string>
+    <string name="ve.myplaylist.authorizetoplay.title">Authorize to play</string>
+    <string name="ve.myplaylist.error.noplaylist">You have not purchased any program on now Video Express First. Purchased programs will be displayed in “My Playlist” for your enjoyment.</string>
+    <string name="ve.myplaylist.error.notauthorized.dialog">The movie you selected is not authorized to play on this mobile device.</string>
+    <string name="ve.myplaylist.error.expired">Program viewing limit already expired. Please purchase again for viewing.</string>
+    
+    <!-- need to use formatter to construct the following strings -->
+    <string name="ve.purchase.formatter.deviceavalibility.text">The program is available for viewing only on this mobile device %1$s and now Video Express First (Ch 106) in TV. You can enjoy %2$s unlimited viewing, which begins after you purchase the program. The purchase is non-refundable after confirmation.</string>
+    <string name="ve.purchase.formatter.deviceavalibility.success.text">The program can be played on this mobile device %1$s and now Video Express First (Ch 106) in TV. You can enjoy %2$s unlimited viewing, which begins after you purchase the program. The purchase is non-refundable after confirmation.</string>
+    <string name="ve.purchase.formatter.movie.cashpoint.text">The transaction amount will be counted in your now TV bill.\nThe program is available for viewing only on this mobile device %1$s and now Video Express First (Ch 106) in TV. You can enjoy %2$s unlimited viewing,which begins after you purchase the program. Non-refundable after confirmation of purchase</string>
+    <string name="ve.purchase.formatter.success.text">You have successfully purchased Tablet / Smartphone + %1$s of %2$s.</string>
+    <string name="ve.myplaylist.formatter.authorizedevice.text">You have authorized to play %1$s in this device only.</string>
+    <string name="ve.myplaylist.formatter.success.text">You can enjoy %1$s unlimited viewing after purchase.</string>
+
+    <!-- TV Plus -->
+    <string name="tvplus.vodtimeline.label">Timeline</string>
+    <string name="tvplus.pulltorefresh.pulldown.label">Pull down to update</string>
+    <string name="tvplus.pulltorefresh.release.label">Release to update</string>
+
+</resources>

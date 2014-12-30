@@ -1,0 +1,326 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription" >
+
+    
+    <LinearLayout
+	    android:id="@+id/fragment_container"
+	    android:layout_below="@+id/imageViewnav_nowplayer_logo"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" />
+
+   	<ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/navbg" />
+
+    <ImageView
+        android:id="@+id/imageViewnav_nowplayer_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/nav_nowplayer_logo" />
+
+    <TextView
+        android:id="@+id/nav_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/imageViewnav_nowplayer_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#00347a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:shadowColor="#b3d1ff"
+        android:shadowDy="-1"
+        android:visibility="invisible"
+         />
+    
+        <Button
+            android:id="@+id/nav_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewnav_nowplayer_logo"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/nav_back_btn"
+            android:shadowColor="@color/Nav_Back_Title_Shadow"
+            android:shadowDy="-1"
+            android:shadowRadius="0.1"
+            android:text="Back"
+            android:textColor="@color/Nav_Back_Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nav_logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewnav_nowplayer_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/nav_item_btn"
+            android:shadowColor="@color/Nav_Back_Title_Shadow"
+            android:shadowDy="-1"
+            android:shadowRadius="0.1"
+            android:text="Logout"
+            android:textColor="@color/Nav_Back_Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tabbar_bg3" />
+
+
+    
+    <LinearLayout
+        android:id="@+id/tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:background="@color/TabBar_Title_Active2"
+        android:layout_below="@id/fragment_container"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton1"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" 
+                />
+
+            <TextView
+                android:id="@+id/split_line1"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:background="@color/split_line_color"
+				android:layout_alignParentRight="true"
+	             />
+            
+            
+            <TextView
+                android:id="@+id/tabbarTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/yuyue"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" />
+
+                <TextView
+                android:id="@+id/split_line2"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:background="@color/split_line_color"
+				android:layout_alignParentRight="true"
+	             />
+            
+            <TextView
+                android:id="@+id/tabbarTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/mine"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+ 
+
+ 
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel_active"
+                android:tag="btn" />
+
+                <TextView
+                android:id="@+id/split_line3"
+                android:layout_width="1dp"
+                android:layout_height="55dp"
+                android:background="@color/split_line_color"
+				android:layout_alignParentRight="true"
+	             />
+            
+            <TextView
+                android:id="@+id/tabbarTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/find"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/tabbarImageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/tabbarImageButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel_active"
+                android:tag="btn" />
+
+            
+            <TextView
+                android:id="@+id/tabbarTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="@string/more"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

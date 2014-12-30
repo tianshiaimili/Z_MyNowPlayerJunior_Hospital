@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription" 
+    android:id="@+id/tabbar_head"
+    >
+
+   	<ImageView
+        android:id="@+id/head_imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/navbg" />
+
+    <ImageView
+        android:id="@+id/head_imageViewnav_nowplayer_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/nav_nowplayer_logo" />
+
+    <TextView
+        android:id="@+id/head_nav_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/imageViewnav_nowplayer_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#00347a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:shadowColor="#b3d1ff"
+        android:shadowDy="-1"
+        android:visibility="invisible"
+         />
+    
+        <Button
+            android:id="@+id/head_nav_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewnav_nowplayer_logo"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/nav_back_btn"
+            android:shadowColor="@color/Nav_Back_Title_Shadow"
+            android:shadowDy="-1"
+            android:shadowRadius="0.1"
+            android:text="Back"
+            android:textColor="@color/Nav_Back_Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/head_nav_logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewnav_nowplayer_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/nav_item_btn"
+            android:shadowColor="@color/Nav_Back_Title_Shadow"
+            android:shadowDy="-1"
+            android:shadowRadius="0.1"
+            android:text="Logout"
+            android:textColor="@color/Nav_Back_Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+</RelativeLayout>

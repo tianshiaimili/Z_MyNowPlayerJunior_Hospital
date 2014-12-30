@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 
+    	since we need to make unselected index clickable and selected index unclickable,
+    	so here we use state_enabled="false" for selected image, state_enabled="true" for unselected images.
+    -->
+    <item android:state_enabled="false" android:drawable="@drawable/tut_dot_select" />
+    <item android:state_enabled="true" android:drawable="@drawable/tut_dot_normal" />
+</selector>

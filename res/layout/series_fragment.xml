@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription,UselessLeaf" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/series_bg_repeat" >
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="159dp"
+            android:layout_marginBottom="64dp" >
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/series_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/series_bg_top_repeat" />
+
+        <ImageView
+            android:id="@+id/thumbnail_bg_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/ondemand_thumbnail_small_bg" />
+
+        <ImageView
+            android:id="@+id/channellogo"
+            android:layout_width="94dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@id/thumbnail_bg_small"
+            android:layout_alignTop="@id/thumbnail_bg_small"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/programTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/channellogo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/thumbnail_bg_small"
+            android:text="冒險王奇克"
+            android:textColor="@color/SeriesDetailTitle"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ScrollView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_alignLeft="@+id/programTitle"
+            android:layout_below="@+id/programTitle"
+            android:layout_alignBottom="@id/series_top" 
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp" >
+            
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="奇克的新鄰居變成了他的瘋狂粉絲奇克的新鄰居變成了他的瘋狂粉絲奇克的新鄰居變成了他的瘋狂粉絲，還為奇克成立了粉絲俱樂部 光頭強在伐木場裡開墾出一塊田地種番茄。熊大兩次偷偷溜進田地，卻都被光頭強捉弄 ..."
+            android:textColor="@color/SeriesDetailSynosis"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+		</ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

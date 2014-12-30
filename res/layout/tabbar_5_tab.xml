@@ -1,0 +1,304 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipChildren="false"
+    tools:context=".TestMainActivity"
+    tools:ignore="HardcodedText,DisableBaselineAlignment,ContentDescription" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/navbg" />
+
+    <ImageView
+        android:id="@+id/imageViewnav_nowplayer_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/nav_nowplayer_logo" />
+
+        <Button
+        android:id="@+id/nav_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/nav_back_btn"
+        android:shadowColor="@color/Nav_Back_Title_Shadow"
+        android:shadowDy="-1"
+        android:shadowRadius="0.1"
+        android:text="Back"
+        android:textColor="@color/Nav_Back_Title"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tabbar_bg" />
+
+
+    	<LinearLayout
+	    android:id="@+id/fragment_container"
+	    android:layout_below="@id/imageViewnav_nowplayer_logo"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+ 		</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:background="@color/TabBar_Title_Active"
+        android:layout_below="@id/fragment_container"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/ImageViewONDEMAND5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/ImageButtonONDEMAND5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" />
+
+            <TextView
+                android:id="@+id/TextViewONDEMAND5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="頻道"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/ImageViewLIVE5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/ImageButtonLIVE5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" />
+
+            <TextView
+                android:id="@+id/TextViewLIVE5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="頻道"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/ImageViewMOVIE5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/ImageButtonMOVIE5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" />
+
+            <TextView
+                android:id="@+id/TextViewMOVIE5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="頻道"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/ImageViewFAQ5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/ImageButtonFAQ5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel"
+                android:tag="btn" />
+
+            <TextView
+                android:id="@+id/TextViewFAQ5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="頻道"
+                android:textColor="@color/TabBar_Title_Normal"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:clipChildren="false" >
+
+            <ImageView
+                android:id="@+id/ImageViewSETTING5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-113dp"
+                android:scaleType="center"
+                android:src="@drawable/tabicon_active_bg_67"
+                android:tag="btnbg" />
+
+            <ImageButton
+                android:id="@+id/ImageButtonSETTING5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="false"
+                android:background="@null"
+                android:onClick="TabItemTapped"
+                android:paddingBottom="5dp"
+                android:src="@drawable/tabicon_channel_active"
+                android:tag="btn" />
+
+            <TextView
+                android:id="@+id/TextViewSETTING5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:tag="title"
+                android:text="頻道"
+                android:textColor="@color/TabBar_Title_Active"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
